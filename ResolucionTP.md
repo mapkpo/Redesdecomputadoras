@@ -17,6 +17,17 @@ https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico
 
 1F Si, le afecta. Se nota claramente que al alejarnos del router y tener peor conexión vamos perdiendo velocidad, en este caso como ejemplo podemos poner a reproducir un video en youtube a 4k en el teléfono con calidad automática y ver que al caminar y alejarnos la calidad irá disminuyendo debido a la menor velocidad de internet. 
 
+1G Si, en los 3 casos mencionados se sufre atenuación. El mas evidente es el primero, ya que las señales electromagnéticas se ven atenuadas y bloqueadas por el medio, por ejemplo arboles, paredes, metal, si estamos en un vehiculo o una edificación de puro hierro notaremos como la señal del teléfono disminuye. En el caso del cable la atenuación será debido a la resistencia intrínseca del cable, mientras mayor sea la longitud del mismo mayor será la caída de la señal.
+Y en la fibra óptica la atenuación seria no por perdida de luz del cable pero debido a las terminales y en partes donde haya empalmes estos no serán perfectos.
+
+
+
+
+
+
+
+
+
 2A Segun el modelo de comunicacion presentado podemos suponer que se trata que tiene caracteristicas temporales congruentes con la comunicacion sincronica y de direccion unidireccional.
 Tambien podriamos llegar a pensar que se trata de una comunicacion en serie porque solo tenemos una linea de datos
 
