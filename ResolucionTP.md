@@ -15,6 +15,8 @@ https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico
 
 1E La linea roja punteada quiere representar el fenómeno presentado en el cap3 del Stallings como atenuación, el cual se define como "decaimiento de la energía en la transmisión debido a la distancia."
 
+1F Si, le afecta. Se nota claramente que al alejarnos del router y tener peor conexión vamos perdiendo velocidad, en este caso como ejemplo podemos poner a reproducir un video en youtube a 4k en el teléfono con calidad automática y ver que al caminar y alejarnos la calidad irá disminuyendo debido a la menor velocidad de internet. 
+
 2A Segun el modelo de comunicacion presentado podemos suponer que se trata que tiene caracteristicas temporales congruentes con la comunicacion sincronica y de direccion unidireccional.
 Tambien podriamos llegar a pensar que se trata de una comunicacion en serie porque solo tenemos una linea de datos
 
