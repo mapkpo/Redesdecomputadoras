@@ -49,8 +49,14 @@ En conclusion la mejor alternativa seria una comunicacion fullduplex, sincronica
 
 3A La técnica de modulación representada es modulación por desplazamiento de fase ya que la información se representa mediante cambios en la fase de la onda portadora manteniendo constante la amplitud y frecuencia.
 
-3B <img width="702" height="188" alt="grafico" src="https://github.com/user-attachments/assets/277f1b59-54ca-41ba-9ec6-88092fba2cec" />
+3B 
+<img width="702" height="188" alt="grafico" src="https://github.com/user-attachments/assets/277f1b59-54ca-41ba-9ec6-88092fba2cec" />
 
 3C Otras técnicas de modulación basadas en el mismo principio son la modulación por desplazamiento de amplitud y la modulación por desplazamiento de frecuencia.
 
 3D La tasa de error de bits (BER) es una métrica que se utiliza para indicar con qué frecuencia un paquete u otra unidad de datos debe retransmitirse debido a un error. La técnica de modulación que mejora el BER, es la modulación por desplazamiento de fase porque ofrece un mayor rendimiento de datos y una mejor eficiencia espectral
+
+Fuentes:
+https://www.everythingrf.com/community/what-is-bit-error-rate-or-ber
+https://www.open.edu/openlearn/digital-computing/exploring-communications-technology/content-section-1.6
+https://support.transcelestial.com/support/solutions/articles/51000324695-bit-error-rates-what-is-ber-and-what-is-a-good-ber-
