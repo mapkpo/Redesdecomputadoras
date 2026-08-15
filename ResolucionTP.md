@@ -16,3 +16,13 @@ https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico
 1E La linea roja punteada quiere representar el fenómeno presentado en el cap3 del Stallings como atenuación, el cual se define como "decaimiento de la energía en la transmisión debido a la distancia."
 
 2A Segun el modelo de comunicacion presentado podemos suponer que se trata que tiene caracteristicas temporales congruentes con la comunicacion sincronica y de direccion unidireccional.
+Tambien podriamos llegar a pensar que se trata de una comunicacion en serie porque solo tenemos una linea de datos
+
+2B Al pensar el sistema como un sistema de comunicacion unidireccional no seria posible enviar informacion en ambas dirrecciones pero si lo analizamos como si fuese bidireccional ahi la cosa cambia.
+Suponiendo esto deberiamos considerar si estamos en una comunicacion halfduplex o fullduplex, teniendo en cuenta que podriamos estar en la primera, no seria lo ideal pues esta no permite la transmicion 
+de datos en ambas dirreciones simultaneamente, para esto podriamos considerar como la mejor la fullduplex la cual deberiamos anadir otra linea de datos para que se puedan comunicar de forma simultanea.
+Ahora en cuanto a las caracteristicas temporales si consideramos a la comunicacion sincronica como la mejor opcion pues esta a funciona con flancos de clock a diferencia de la asincronica que deberiamos mandar
+un bit de inicio y uno de stop.
+Tambien si lo que buscamos es mayor velocidad podriamos llegar a considerar una transmicion en paralelo, ya que en la transmision en serie presentada solo podemos mandar un dato a la vez, en cambio en una transmision
+en paralelo nos permite enviarlos de forma concurrente a los datos pero tiene limitaciones fisicas en cuanto a la frecuencia que puede alcanzar y un alto coste.
+En conclusion la mejor alternativa seria una comunicacion fullduplex, sincronica y serie
