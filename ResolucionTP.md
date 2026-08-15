@@ -1,4 +1,4 @@
-1B Considerando que la longitud del periodo son 60mm según el gráfico, usando la formula de longitud de onda c (velocidad de la luz) = lambda * frecuencia, nos da como resultado una frecuencia 5 Ghz.
+<img width="702" height="188" alt="grafico" src="https://github.com/user-attachments/assets/fca645a6-3a98-489e-9827-38eb6c456f7c" />1B Considerando que la longitud del periodo son 60mm según el gráfico, usando la formula de longitud de onda c (velocidad de la luz) = lambda * frecuencia, nos da como resultado una frecuencia 5 Ghz.
 
 1C En la clasificación del espectro electromagnetico, nuestra onda de 60mm seria del rango de microondas. 
 
@@ -44,3 +44,13 @@ En conclusion la mejor alternativa seria una comunicacion fullduplex, sincronica
 <img width="786" height="243" alt="imagen" src="https://github.com/user-attachments/assets/2da5ff81-4ed5-41d8-a2d0-1c44628f12b5" />
 
 2D La senal se medira en los instantes T0, T2, T4, y asi consecutivamente para permitirle a la senal terminar de cambiar de estado y no tener fallas de lectura
+
+3 Una señal escalonada presenta cambios bruscos al pasar de 1 a 0. Estos cambios generan componentes de frecuencias altas, por lo que la señal requiere un ancho de banda amplio para ser transmitida correctamente. El problema es que los medios de transmisión inalámbrica disponen de un ancho de banda limitado, por lo que no resulta conveniente transmitir directamente este tipo de señal.
+
+3A La técnica de modulación representada es modulación por desplazamiento de fase ya que la información se representa mediante cambios en la fase de la onda portadora manteniendo constante la amplitud y frecuencia.
+
+3B <img width="702" height="188" alt="grafico" src="https://github.com/user-attachments/assets/277f1b59-54ca-41ba-9ec6-88092fba2cec" />
+
+3C Otras técnicas de modulación basadas en el mismo principio son la modulación por desplazamiento de amplitud y la modulación por desplazamiento de frecuencia.
+
+3D La tasa de error de bits (BER) es una métrica que se utiliza para indicar con qué frecuencia un paquete u otra unidad de datos debe retransmitirse debido a un error. La técnica de modulación que mejora el BER, es la modulación por desplazamiento de fase porque ofrece un mayor rendimiento de datos y una mejor eficiencia espectral
