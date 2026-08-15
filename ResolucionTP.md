@@ -11,4 +11,6 @@ https://www.itu.int/dms_pubrec/itu-r/rec/v/r-rec-v.431-8-201508-i!!pdf-e.pdf
 
 https://es.wikipedia.org/wiki/Espectro_electromagn%C3%A9tico
 
+1D El uso mas común que podemos encontrar para esta banda es el wifi de 5GHz, el cual permite velocidades mas rápidas que la 2.4Ghz y es necesaria en entornos como edificios y departamentos debido a la alta saturación del espectro de 2.4 y las bajas velocidades de transmisión que ocurren debido a esto. 
+
 2A Segun el modelo de comunicacion presentado podemos suponer que se trata que tiene caracteristicas temporales congruentes con la comunicacion sincronica y de direccion unidireccional.
