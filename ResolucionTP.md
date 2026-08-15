@@ -43,4 +43,4 @@ En conclusion la mejor alternativa seria una comunicacion fullduplex, sincronica
 2C La 4ta letra de nuestro grupo es la "d" y en ascii 01100100
 <img width="786" height="243" alt="imagen" src="https://github.com/user-attachments/assets/2da5ff81-4ed5-41d8-a2d0-1c44628f12b5" />
 
-2D
+2D La senal se medira en los instantes T0, T2, T4, y asi consecutivamente para permitirle a la senal terminar de cambiar de estado y no tener fallas de lectura
