@@ -39,3 +39,9 @@ un bit de inicio y uno de stop.
 Tambien si lo que buscamos es mayor velocidad podriamos llegar a considerar una transmicion en paralelo, ya que en la transmision en serie presentada solo podemos mandar un dato a la vez, en cambio en una transmision
 en paralelo nos permite enviarlos de forma concurrente a los datos pero tiene limitaciones fisicas en cuanto a la frecuencia que puede alcanzar y un alto coste.
 En conclusion la mejor alternativa seria una comunicacion fullduplex, sincronica y serie
+
+2C
+La 4ta letra de nuestro grupo es la "d" y en ascii 01100100
+<img width="786" height="243" alt="imagen" src="https://github.com/user-attachments/assets/2da5ff81-4ed5-41d8-a2d0-1c44628f12b5" />
+
+2D
