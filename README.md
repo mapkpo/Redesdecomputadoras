@@ -1,2 +1,12 @@
-# Redesdecomputadoras
+# Redes de computadoras
 poner link del repo en la planilla de la cátedra cuando esté finalizado el tp
+
+## Integrantes
+
+Potinski, Mijail Andrés
+
+Tarrago, Emilio
+
+Sorbera, Josué
+
+...completar
