@@ -60,3 +60,29 @@ Fuentes:
 https://www.everythingrf.com/community/what-is-bit-error-rate-or-ber
 https://www.open.edu/openlearn/digital-computing/exploring-communications-technology/content-section-1.6
 https://support.transcelestial.com/support/solutions/articles/51000324695-bit-error-rates-what-is-ber-and-what-is-a-good-ber-
+
+4
+
+<img width="800" height="344" alt="Cisco_esquema" src="https://github.com/user-attachments/assets/98a12480-2746-40ce-ad08-9adae3a504a4" />
+
+4BC
+
+<img width="1485" height="330" alt="router_config" src="https://github.com/user-attachments/assets/86f6418f-f3e7-4219-b6c1-22b5b2517244" />
+
+El Router opera en la frecuencia de 2.4Ghz, en el canal 6
+Se encuentra en la region de las Microondas, que va desde 300MHz a 300GHz
+Opera en la banda numero 9
+
+<img width="1520" height="522" alt="Config_pc" src="https://github.com/user-attachments/assets/88808f7c-38bc-47bc-ab77-766debcd701f" />
+
+<img width="599" height="450" alt="Config_laptop" src="https://github.com/user-attachments/assets/e67dfdb3-11c4-43a0-99c8-20f30b39b58c" />
+
+
+4G
+Video demostrando conexion entre equipos - PDU
+
+
+
+https://github.com/user-attachments/assets/6407d7bf-8ea9-41cd-9683-a781d9d499af
+
+
