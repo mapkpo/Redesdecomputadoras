@@ -58,4 +58,24 @@ En conjunto los primeros dos factores no pueden incrementarse indefinidamente si
 >A. Trasmite solo uno a la vez, porque comparten el mismo medio fisico de transmision.
 Si transmiten al mismo tiempo provocaria una interferencia destructiva, por eso el medio tiene que compartirse temporalmente, solo a la estacion que tenga el turno de emision
 
->B. 
+>B.
+
+3.2 con una frecuencia fundamental de 1000Hz 1/1000hz = 1ms
+
+3.3
+>A. sen(2π F t - π)*2 experiencian interferencia constructiva
+>B. difieren en 180° por lo tanto = 0 experimentan interferencia destructiva
+
+3.4  Pensando en frecuencias relativas podemos ver que un salto de 1 octava duplica la frecuencia. Notas mas altas tienen frecuencias mayores mientras que sus longitudes de onda se vuelven menores. Tambien podemos destacar que la longitud de onda del MI es de 1m aproximadamente. Un MI una octava mayor tendra una longitud de onda de 0.5m
+
+3.5 ya que tiene el doble de amplitud y frecuencia. Se puede representar como 2*sen(2π * 2t + π). Tiene un desfasaje de 180° ya que en los alrededores de 0 difieren en signo
+
+3.6 resolvemos con los siguientes pasos:
+- cos(100t)+ 0,1 cos(5t)*cos(100t)
+- por la expresion de cos(a)*cos(b) -> 0,1 cos(5t) * cos(100t) = 0,05 cos(95t) * 0.05 cos(105t)
+- reemplazando obtenemos cos(100t) + 0,05 cos(95t) + 0,05 cos(105t)
+
+3.7. 
+- expandiendo obtenemos (10cos(t))*(10cos(t))
+- 100 * cos²t, ignoramos la amplitud de 100 ya que no affecta la frecuencia 
+- cos(t) tiene un periodo de 2π. cos² se vuelve positivo para la onda positiva y negativa de cos, por lo tanto su frecuencia es el doble y su periodo la mitad, tiene un periodo de π
