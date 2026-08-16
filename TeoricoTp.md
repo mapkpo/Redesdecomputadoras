@@ -48,6 +48,7 @@ La señal analoga es mas sensible al ruido y a los errores, mientras que la digi
 - ancho de banda
 - ruido
 - tasa de errores
+  
 En conjunto los primeros dos factores no pueden incrementarse indefinidamente sin que los factores 3 y 4 reduzcan la tasa de transmision de informacion efectiva y aumente el costo.
 
 ---
