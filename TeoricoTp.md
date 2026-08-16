@@ -36,3 +36,13 @@ La señal analoga es mas sensible al ruido y a los errores, mientras que la digi
 3.4 2π = 360° = 1 Periodo
 
 3.5 
+
+
+---
+# Ejercicios
+
+3.1 
+>A. Trasmite solo uno a la vez, porque comparten el mismo medio fisico de transmision.
+Si transmiten al mismo tiempo provocaria una interferencia destructiva, por eso el medio tiene que compartirse temporalmente, solo a la estacion que tenga el turno de emision
+
+>B. 
