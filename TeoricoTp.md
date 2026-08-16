@@ -35,8 +35,20 @@ La señal analoga es mas sensible al ruido y a los errores, mientras que la digi
 
 3.4 2π = 360° = 1 Periodo
 
-3.5 
+3.5 La longitud de onda y la frecuencia estan relacionadas por la velocidad de propagacion. Ya que la frequencia se representa en oscilaciones/tiempo y la longitud de onda en distancia/oscilacion. se cumple que la velocidad de propagacion en distancia/tiempo completa la ecuacion para su relacion de la forma: velocidad de propagacion = longitud * frecuencia 
 
+3.6 la relacion entre el espectro de una señal y su ancho de banda se basa en la definicion de ancho de banda. una señal expresada en frecuencia tendra una frecuencia minima y maxima que la representan, el ancho de banda es simplemente la distancia en frecuencia de este minimo y maximo. Teniendo una señal cuyo espectro tiene un componente minimo de 60hz y maximo de 300hz el ancho de banda seria 240hz.
+
+3.7 La atenuacion es el fenomeno de la reduccion en la intensidad de una señal mientras se propaga por el espacio. Es consecuencia de que una señal tiene energia limitada y al propagarse en mas espacio disminuye su intensidad. Aun para señales que se propagan en medios guiados se produce atenuacion por la interaccion de la señal con materia quitandole energia. Por esto cualquier receptor medira con menor intensidad la señal mientras mas se distancie del transmisor.
+
+3.8 La capacidad de un canal es la velocidad de transmision maxima a la que pueden comunicarse el transmisor y receptor por un canal especifico. Esto es claramente una propiedad del canal.
+
+3.9 los factores que la afectan son:
+- velocidad de transmision
+- ancho de banda
+- ruido
+- tasa de errores
+En conjunto los primeros dos factores no pueden incrementarse indefinidamente sin que los factores 3 y 4 reduzcan la tasa de transmision de informacion efectiva y aumente el costo.
 
 ---
 # Ejercicios
