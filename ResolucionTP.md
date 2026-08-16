@@ -1,4 +1,4 @@
-<img width="702" height="188" alt="grafico" src="https://github.com/user-attachments/assets/fca645a6-3a98-489e-9827-38eb6c456f7c" />1B Considerando que la longitud del periodo son 60mm según el gráfico, usando la formula de longitud de onda c (velocidad de la luz) = lambda * frecuencia, nos da como resultado una frecuencia 5 Ghz.
+1B Considerando que la longitud del periodo son 60mm según el gráfico, usando la formula de longitud de onda c (velocidad de la luz) = lambda * frecuencia, nos da como resultado una frecuencia 5 Ghz.
 
 1C En la clasificación del espectro electromagnetico, nuestra onda de 60mm seria del rango de microondas. 
 
