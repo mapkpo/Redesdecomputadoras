@@ -55,7 +55,8 @@ En conjunto los primeros dos factores no pueden incrementarse indefinidamente si
 # Ejercicios
 
 3.1 
->A. Trasmite solo uno a la vez, porque comparten el mismo medio fisico de transmision.
+
+A. Trasmite solo uno a la vez, porque comparten el mismo medio fisico de transmision.
 Si transmiten al mismo tiempo provocaria una interferencia destructiva, por eso el medio tiene que compartirse temporalmente, solo a la estacion que tenga el turno de emision
 
 >B.
@@ -79,3 +80,36 @@ Si transmiten al mismo tiempo provocaria una interferencia destructiva, por eso 
 - expandiendo obtenemos (10cos(t))*(10cos(t))
 - 100 * cos²t, ignoramos la amplitud de 100 ya que no affecta la frecuencia 
 - cos(t) tiene un periodo de 2π. cos² se vuelve positivo para la onda positiva y negativa de cos, por lo tanto su frecuencia es el doble y su periodo la mitad, tiene un periodo de π
+
+3.8 La Suma de dos funciones periodicas da como resultado una Funcion con frecuencia fundamental, solo si la frecuencia de la segunda componente es multiplo entero de la frecuencia de la segunda componente.
+Si no es asi, no existe relacion tal que la componente resultante no es ninguna frecuencia fundamental comun y se convierte en una señal no periodica
+
+3.9
+
+3.10
+
+3.11 Se lograba cambiar de mayusculas y minusculas mediante un caracter llamado SHIFT que cambiaba el modo de funcionamiento, era remplazado las letras minusculas por sus respectivas letras mayusculas y los digitos por otros caracteres especiales.
+El codigo TeleTypesetter (TTS) utilizaba como base el codigo de murray, sumando un bit mas, duplicando las combinaciones binarias directas
+
+Fuente : https://www.smecc.org/teletypes_in_typesetting.htm
+
+3.12 Utilizando la misma relacion 4:3 , calculamos las resoluciones por separado
+Resolucion Horizontal :
+Calculamos los ciclos por linea
+Ciclos = Fmax * Tactivo = 5Mhz * 52,5us = 262,5
+
+Entonces la resolucion horizontal alcanzada por cada ciclo completo : 
+2 * 262,5 = 525 lineas
+
+Resolucion Vertical: 
+Usando la misma resolucion horizontal 450 y un ancho de banda de 5Mhz, la duracion de una linea es 
+
+Tactivo = (450/2) / 5Mhz = 45us
+
+usando los aproximandamente 11 reservados para el retroceso horizontal
+
+45us + 11,2 = 56,2 us
+
+Entonces, el escaneo dura 1/30 ≈ 33.33, con el tiempo de linea se puede calcular el total de lineas verticales
+
+33.333us / 56,2 ≈ 593 lineas
