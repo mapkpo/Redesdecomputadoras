@@ -86,3 +86,12 @@ Video demostrando conexion entre equipos - PDU
 https://github.com/user-attachments/assets/6407d7bf-8ea9-41cd-9683-a781d9d499af
 
 
+4H
+Video demostrando el alcance de la señal de wifi
+
+
+https://github.com/user-attachments/assets/b6492648-a3fb-45fc-a2df-62ddeddd0058
+
+Este video demuestra que la conectividad inalambrica esta condicionada por el radio de cobertura
+
+
