@@ -7,7 +7,7 @@ Potinski, Mijail Andrés
 
 Tarrago, Emilio
 
-Sorbera, Josué
+Sorbera, Josue Emmanuel
 
 Manzano, Maximo Lucio
 
