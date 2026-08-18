@@ -13,4 +13,4 @@ Manzano, Maximo Lucio
 
 Romero, Matías Nicolas
 
-...completar
+Casto, Nicolás Manuel
