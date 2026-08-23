@@ -52,8 +52,11 @@ El payload es la información en si que se desea transmitir, la cual ha sido enc
 El trailer es la parte ultima del frame, el cual además de decir que la trama termina puede tener información para detección de errores.
 [ HEADER ][      PAYLOAD       ][ TRAILER ]
 
-4C)
+4C) El preámbulo puede ayudar para sincronizar el reloj, o avisar que vendrá una trama. No necesariamente, generalmente es información de control del protocolo usado.
 
+4D) El método de longitud fija significa que cuando hayamos contados tantos "bits" desde el inicio del frame podemos saber que ya terminó, es simple, pero desperdicia espacio y tiempo cuando se quiere transmitir poca información.
+Campo con longitud es el tipo que eligió el profe para el tp, tenemos un campo en el frame que nos indica cuantos bits es el largo de la información, entonces el receptor sabe cuantos bits leer.
+Caracteres/secuencias delimitadoras es cuando tenemos previamente definido un carácter único que solo se usara para determinar el inicio y final.
 
 5) Nuestro grupo #hiddenSSID, los primeros 5 caracteres serian #hidd lo cual en binario lo encontramos como "23 68 69 64 64". El numero de secuencia seria "01" osea la primera posición,
 el length "02" osea 2 bytes de payload que viene luego los cuales eran "68 74" traducidos como "ht". Resultando ser el inicio de la url del youtube short del premio.
