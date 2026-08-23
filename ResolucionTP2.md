@@ -41,3 +41,9 @@ por lo tanto mayor es el BER. Cuanto mayor es la SNR, el receptor puede distingu
 
 
 3) 
+
+
+
+5) Nuestro grupo #hiddenSSID, los primeros 5 caracteres serian #hidd lo cual en binario lo encontramos como "23 68 69 64 64". El numero de secuencia seria "01" osea la primera posición,
+el length "02" osea 2 bytes de payload que viene luego los cuales eran "68 74" traducidos como "ht". Resultando ser el inicio de la url del youtube short del premio.
+   
