@@ -39,7 +39,9 @@ La SNR y el BER están inversamente relacionados, Cuanto menor es la SNR, mayor 
 por lo tanto mayor es el BER. Cuanto mayor es la SNR, el receptor puede distinguir mejor los niveles de señal del ruido de fondo, y el BER disminuye.
 
 
-3)
+3) Los sistemas de transmisión digital ayudan a detectar y corregir errores agregando redundancia controlada a los datos, ya sea mediante bits de paridad o por control de errores.
+Para combatir los cambios de frecuencia en cambio se usan mecanismos de sincronización y recuperación de reloj, los cuales van ajustando las pequeñas diferencias entre las frecuencias
+del emisor y receptor, para que se siga leyendo el valor en el instante correcto.
 
 4A) Sincronización significa que el receptor sepa cuándo y cómo interpretar los datos que recibe. Ambos deben tener una referencia en común.
 Sincronización de bits es cuando usamos un ciclo de reloj coordinado para saber cuando leer la información, esto puede ser una señal paralela o un reloj interno 
