@@ -113,3 +113,38 @@ usando los aproximandamente 11 reservados para el retroceso horizontal
 Entonces, el escaneo dura 1/30 ≈ 33.33, con el tiempo de linea se puede calcular el total de lineas verticales
 
 33.333us / 56,2 ≈ 593 lineas
+
+3.13
+
+3.14 
+N = 10log k + 10log T + 10log b 
+
+K : constante de boltzmann T : Temperarura absoluta en grados kelvin b : Ancho de banda
+Reemplazando :
+N = -228,4dBW + 10log(10000) + 10log(1000000) = -228,4 + 40 + 70 = -118,6 dBW
+
+3.15
+
+3.16
+Usando la formula de Nyquist (Pag 84)
+
+C = 2B log2 M
+
+Para 4 bits (M = 2⁴ = 16)
+9600 = 2 * B * log2(16)
+9600 = 2 * B * 4
+9600 = 8 * B
+B = 9600 / 8 = 1200 Hz (1.2 kHz)
+
+Para 8 bits (M = 2^8 = 256)
+9600 = 2 * B * log2(256)
+9600 = 2 * B * 8
+9600 = 16 * B
+B = 9600 / 16 = 600 Hz (0.6 kHz)
+
+3.17
+N = 10log k + 10log T + 10log b
+
+Con la temperatura, en kelvin : 50 + 273 = 323 K
+Y los 1000w de la señal transmitida, que no afecta al calculo, quedaria como:
+N = -228,6 dBW + 10log(323) + 10log(10000) = -228,6 + 25,09 + 40 = -163,51 dBW
