@@ -158,7 +158,11 @@ Una vez conocido este límite máximo, se utiliza la fórmula de Nyquist para de
 3.19 Sea un canal con una capacidad (C) de 20 Mbps. El ancho de banda (B) de dicho canal es 3 MHz. ¿Cuál es la relación señal-ruido admisible para conseguir la mencionada capacidad? 
 Utilizando la formula de Sharron: 
 20Mbps = 3 MHz*log_2 (1 + SNR)
+
 20/3 = log_2 (1 + SNR)
+
 2^(20/3) = 1 + SNR
+
 2^(20/3) - 1 = SNR
+
 Resolviendo esto obtenemos una relacion senal ruido (SNR) de 100.59, que explesada en db seria 10*log_10(100.59) = 20.02db
