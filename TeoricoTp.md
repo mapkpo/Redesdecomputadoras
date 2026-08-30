@@ -90,52 +90,8 @@ interpretarse como una mini curva de descarga de un pequeño capacitor con una c
 
 <img width="683" height="446" alt="imagen" src="https://github.com/user-attachments/assets/dce5752d-5e06-47b0-8081-fb7c8cbdd4f3" />
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 3.10
+Esto tiene varias implicancias, la mayor de ellas siendo que al requerir un ancho de banda infinito cualquier sistema real limitaría estas frecuencias, lo que introduce distorsiones en la señal lo que dificulta su interpretación y agrega errores.   
 
 3.11 Se lograba cambiar de mayusculas y minusculas mediante un caracter llamado SHIFT que cambiaba el modo de funcionamiento, era remplazado las letras minúsculas por sus respectivas letras mayúsculas y los digitos por otros caracteres especiales.
 El codigo TeleTypesetter (TTS) utilizaba como base el codigo de murray, sumando un bit mas, duplicando las combinaciones binarias directas
