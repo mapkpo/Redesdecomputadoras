@@ -148,3 +148,17 @@ N = 10log k + 10log T + 10log b
 Con la temperatura, en kelvin : 50 + 273 = 323 K
 Y los 1000w de la señal transmitida, que no afecta al calculo, quedaria como:
 N = -228,6 dBW + 10log(323) + 10log(10000) = -228,6 + 25,09 + 40 = -163,51 dBW
+
+3.18 Relacion de Shannon y Nysquit
+La aproximacion de Nysquit para un canal sin ruido establece que el límite máximo en la velocidad de transmisión basándose exclusivamente en el ancho de banda disponible B y el numero de senales discretas o niveles de tension es M. Su formulación es C = 2B*log_2 M
+Por otro lado la aproximacion de Shannon para un canal con ruido nos dice el límite teórico máximo de transmisión de un canal real considerando la distorsión introducida por el ruido térmico, utilizando la relación señal-ruido (NR). Su formulación es C = B*log_2 (1 + SNR)
+Con esto podemos decir que la relacion entre estas aproximaciones es que la fórmula de Shannon se utiliza primero para calcular el límite superior teórico absoluto de la capacidad de un canal dadas sus condiciones de ruido.
+Una vez conocido este límite máximo, se utiliza la fórmula de Nyquist para determinar cuántos niveles de señalización diferentes M serían necesarios para alcanzar exactamente esa capacidad teórico, como se vio en el ejemplo 3.3
+
+3.19 Sea un canal con una capacidad (C) de 20 Mbps. El ancho de banda (B) de dicho canal es 3 MHz. ¿Cuál es la relación señal-ruido admisible para conseguir la mencionada capacidad? 
+Utilizando la formula de Sharron: 
+20Mbps = 3 MHz*log_2 (1 + SNR)
+20/3 = log_2 (1 + SNR)
+2^(20/3) = 1 + SNR
+2^(20/3) - 1 = SNR
+Resolviendo esto obtenemos una relacion senal ruido (SNR) de 100.59, que explesada en db seria 10*log_10(100.59) = 20.02db
