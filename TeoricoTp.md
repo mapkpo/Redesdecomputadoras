@@ -151,7 +151,9 @@ N = -228,6 dBW + 10log(323) + 10log(10000) = -228,6 + 25,09 + 40 = -163,51 dBW
 
 3.18 Relacion de Shannon y Nysquit
 La aproximacion de Nysquit para un canal sin ruido establece que el límite máximo en la velocidad de transmisión basándose exclusivamente en el ancho de banda disponible B y el numero de senales discretas o niveles de tension es M. Su formulación es C = 2B*log_2 M
+
 Por otro lado la aproximacion de Shannon para un canal con ruido nos dice el límite teórico máximo de transmisión de un canal real considerando la distorsión introducida por el ruido térmico, utilizando la relación señal-ruido (NR). Su formulación es C = B*log_2 (1 + SNR)
+
 Con esto podemos decir que la relacion entre estas aproximaciones es que la fórmula de Shannon se utiliza primero para calcular el límite superior teórico absoluto de la capacidad de un canal dadas sus condiciones de ruido.
 Una vez conocido este límite máximo, se utiliza la fórmula de Nyquist para determinar cuántos niveles de señalización diferentes M serían necesarios para alcanzar exactamente esa capacidad teórico, como se vio en el ejemplo 3.3
 
