@@ -88,7 +88,8 @@ Si no es asi, no existe relacion tal que la componente resultante no es ninguna 
 La señal resultante se convertiría en una serie de picos agudos o impulsos periódicos que marcan los instantes exactos de las transiciones de voltaje, perdiendo sus tramos planos al carecer de la energía que aportan las bajas frecuencias, esto podria
 interpretarse como una mini curva de descarga de un pequeño capacitor con una carga instantánea.
 
-<img width="653" height="475" alt="imagen" src="https://github.com/user-attachments/assets/561e9506-b194-48a6-bf39-efdbae25a6f9" />
+<img width="683" height="446" alt="imagen" src="https://github.com/user-attachments/assets/dce5752d-5e06-47b0-8081-fb7c8cbdd4f3" />
+
 
 
 3.10
