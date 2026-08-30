@@ -156,7 +156,8 @@ Con esto podemos decir que la relacion entre estas aproximaciones es que la fór
 Una vez conocido este límite máximo, se utiliza la fórmula de Nyquist para determinar cuántos niveles de señalización diferentes M serían necesarios para alcanzar exactamente esa capacidad teórico, como se vio en el ejemplo 3.3
 
 3.19 Sea un canal con una capacidad (C) de 20 Mbps. El ancho de banda (B) de dicho canal es 3 MHz. ¿Cuál es la relación señal-ruido admisible para conseguir la mencionada capacidad? 
-Utilizando la formula de Sharron: 
+Utilizando la formula de Sharron:
+
 20Mbps = 3 MHz*log_2 (1 + SNR)
 
 20/3 = log_2 (1 + SNR)
