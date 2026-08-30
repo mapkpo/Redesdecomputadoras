@@ -92,6 +92,49 @@ interpretarse como una mini curva de descarga de un pequeño capacitor con una c
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 3.10
 
 3.11 Se lograba cambiar de mayusculas y minusculas mediante un caracter llamado SHIFT que cambiaba el modo de funcionamiento, era remplazado las letras minúsculas por sus respectivas letras mayúsculas y los digitos por otros caracteres especiales.
