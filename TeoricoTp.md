@@ -39,25 +39,25 @@ La señal analoga es mas sensible al ruido y a los errores, mientras que la digi
 
 3.6 la relacion entre el espectro de una señal y su ancho de banda se basa en la definicion de ancho de banda. una señal expresada en frecuencia tendra una frecuencia minima y maxima que la representan, el ancho de banda es simplemente la distancia en frecuencia de este minimo y maximo. Teniendo una señal cuyo espectro tiene un componente minimo de 60hz y maximo de 300hz el ancho de banda seria 240hz.
 
-3.7 La atenuacion es el fenomeno de la reduccion en la intensidad de una señal mientras se propaga por el espacio. Es consecuencia de que una señal tiene energia limitada y al propagarse en mas espacio disminuye su intensidad. Aun para señales que se propagan en medios guiados se produce atenuacion por la interaccion de la señal con materia quitandole energia. Por esto cualquier receptor medira con menor intensidad la señal mientras mas se distancie del transmisor.
+3.7 La atenuación es el fenómeno de la reducción en la intensidad de una señal mientras se propaga por el espacio. Es consecuencia de que una señal tiene energía limitada y al propagarse en mas espacio disminuye su intensidad. Aun para señales que se propagan en medios guiados se produce atenuación por la interacción de la señal con materia quitándole energía. Por esto cualquier receptor medirá con menor intensidad la señal mientras mas se distancie del transmisor.
 
-3.8 La capacidad de un canal es la velocidad de transmision maxima a la que pueden comunicarse el transmisor y receptor por un canal especifico. Esto es claramente una propiedad del canal.
+3.8 La capacidad de un canal es la velocidad de transmisión máxima a la que pueden comunicarse el transmisor y receptor por un canal especifico. Esto es claramente una propiedad del canal.
 
 3.9 los factores que la afectan son:
-- velocidad de transmision
+- velocidad de transmisión
 - ancho de banda
 - ruido
 - tasa de errores
   
-En conjunto los primeros dos factores no pueden incrementarse indefinidamente sin que los factores 3 y 4 reduzcan la tasa de transmision de informacion efectiva y aumente el costo.
+En conjunto los primeros dos factores no pueden incrementarse indefinidamente sin que los factores 3 y 4 reduzcan la tasa de transmisión de información efectiva y aumente el costo.
 
 ---
 # Ejercicios
 
 3.1 
 
-A. Trasmite solo uno a la vez, porque comparten el mismo medio fisico de transmision.
-Si transmiten al mismo tiempo provocaria una interferencia destructiva, por eso el medio tiene que compartirse temporalmente, solo a la estacion que tenga el turno de emision
+A. Trasmite solo uno a la vez, porque comparten el mismo medio físico de transmisión.
+Si transmiten al mismo tiempo provocaría una interferencia destructiva, por eso el medio tiene que compartirse temporalmente, solo a la estación que tenga el turno de emisión
 
 >B.
 
@@ -67,9 +67,9 @@ Si transmiten al mismo tiempo provocaria una interferencia destructiva, por eso 
 >A. sen(2π F t - π)*2 experiencian interferencia constructiva
 >B. difieren en 180° por lo tanto = 0 experimentan interferencia destructiva
 
-3.4  Pensando en frecuencias relativas podemos ver que un salto de 1 octava duplica la frecuencia. Notas mas altas tienen frecuencias mayores mientras que sus longitudes de onda se vuelven menores. Tambien podemos destacar que la longitud de onda del MI es de 1m aproximadamente. Un MI una octava mayor tendra una longitud de onda de 0.5m
+3.4  Pensando en frecuencias relativas podemos ver que un salto de 1 octava duplica la frecuencia. Notas mas altas tienen frecuencias mayores mientras que sus longitudes de onda se vuelven menores. Tambien podemos destacar que la longitud de onda del MI es de 1m aproximadamente. Un MI una octava mayor tendrá una longitud de onda de 0.5m
 
-3.5 ya que tiene el doble de amplitud y frecuencia. Se puede representar como 2*sen(2π * 2t + π). Tiene un desfasaje de 180° ya que en los alrededores de 0 difieren en signo
+3.5 ya que tiene el doble de amplitud y frecuencia. Se puede representar como 2*sen(2π * 2t + π). Tiene un desfase de 180° ya que en los alrededores de 0 difieren en signo
 
 3.6 resolvemos con los siguientes pasos:
 - cos(100t)+ 0,1 cos(5t)*cos(100t)
@@ -81,14 +81,19 @@ Si transmiten al mismo tiempo provocaria una interferencia destructiva, por eso 
 - 100 * cos²t, ignoramos la amplitud de 100 ya que no affecta la frecuencia 
 - cos(t) tiene un periodo de 2π. cos² se vuelve positivo para la onda positiva y negativa de cos, por lo tanto su frecuencia es el doble y su periodo la mitad, tiene un periodo de π
 
-3.8 La Suma de dos funciones periodicas da como resultado una Funcion con frecuencia fundamental, solo si la frecuencia de la segunda componente es multiplo entero de la frecuencia de la segunda componente.
-Si no es asi, no existe relacion tal que la componente resultante no es ninguna frecuencia fundamental comun y se convierte en una señal no periodica
+3.8 La Suma de dos funciones periodicas da como resultado una Funcion con frecuencia fundamental, solo si la frecuencia de la segunda componente es múltiplo entero de la frecuencia de la segunda componente.
+Si no es asi, no existe relacion tal que la componente resultante no es ninguna frecuencia fundamental común y se convierte en una señal no periódica
 
-3.9
+3.9.
+La señal resultante se convertiría en una serie de picos agudos o impulsos periódicos que marcan los instantes exactos de las transiciones de voltaje, perdiendo sus tramos planos al carecer de la energía que aportan las bajas frecuencias, esto podria
+interpretarse como una mini curva de descarga de un pequeño capacitor con una carga instantánea.
+
+<img width="653" height="475" alt="imagen" src="https://github.com/user-attachments/assets/561e9506-b194-48a6-bf39-efdbae25a6f9" />
+
 
 3.10
 
-3.11 Se lograba cambiar de mayusculas y minusculas mediante un caracter llamado SHIFT que cambiaba el modo de funcionamiento, era remplazado las letras minusculas por sus respectivas letras mayusculas y los digitos por otros caracteres especiales.
+3.11 Se lograba cambiar de mayusculas y minusculas mediante un caracter llamado SHIFT que cambiaba el modo de funcionamiento, era remplazado las letras minúsculas por sus respectivas letras mayúsculas y los digitos por otros caracteres especiales.
 El codigo TeleTypesetter (TTS) utilizaba como base el codigo de murray, sumando un bit mas, duplicando las combinaciones binarias directas
 
 Fuente : https://www.smecc.org/teletypes_in_typesetting.htm
