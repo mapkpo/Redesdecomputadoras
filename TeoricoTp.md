@@ -119,7 +119,17 @@ Entonces, el escaneo dura 1/30 ≈ 33.33, con el tiempo de linea se puede calcul
 
 33.333us / 56,2 ≈ 593 lineas
 
-3.13
+3.13  
+A) Para determinar la cantidad de bits debemos hacer la siguiente cuenta: bits*pixeles*fps
+los bits en este caso serian 5, ya que 2^5=32 colores que necesitamos
+osea resolviendo 480*500*5*30 = 36000000 bps == 36 megabits
+
+B)  Para saber el ancho maximo del canal usamos la formula de shanon, con una snr de 35db, resolviendo obtenemos que
+c = 4,5 × 10^6 log2​(1 + snr (3162,3))
+c = 52,3 megabits
+
+C)  Se pueden reemplazar los 32 niveles de intensidad por 3 colores con 10 niveles de intensidad cada uno, obteniendo 3x10 = 30 posibles estados por píxel.
+Como 30 estados todavía pueden codificarse con 5 bits, la velocidad permanece igual
 
 3.14 
 N = 10log k + 10log T + 10log b 
