@@ -186,3 +186,16 @@ Utilizando la formula de Sharron:
 2^(20/3) - 1 = SNR
 
 Resolviendo esto obtenemos una relacion senal ruido (SNR) de 100.59, que explesada en db seria 10*log_10(100.59) = 20.02db
+
+3.20
+A) De la señal con frecuencia fundamental de 1Khz y armonicos en 3Khz, 5Khz, 7Khz 9Khz... El filtro deja pasar los armónicos con k impar menores a 8, es decir k = 1, 3, 5, 7 (k = 9 y mayores quedan bloqueados por exceder la frecuencia de corte).
+Cada armónico tiene amplitud Ak = (4/π)·(1/k), y su potencia es Pk = Ak²/2 = 8/(π²·k²).
+Potencia total de salida:
+
+Po = (8/π²) · (1/1² + 1/3² + 1/5² + 1/7²)
+Po ≈ 0,95 W
+
+b) para el SNR de salida, con ruido termico es igual a N0 * ancho de banda(en este caso 8000)
+Pnoise= 0,0000001 * 8000 = 0.0008W = 0.8mW
+SNR: Po/Pnoise = 0.95w/0.0008W = 1187.5
+o en escala logaritmica 30.75dB
