@@ -138,7 +138,8 @@ K : constante de boltzmann T : Temperarura absoluta en grados kelvin b : Ancho d
 Reemplazando :
 N = -228,4dBW + 10log(10000) + 10log(1000000) = -228,4 + 40 + 70 = -118,6 dBW
 
-3.15
+3.15  Usando la formula de shanon, buscamos la SNR y obtenemos
+c = 475 bps
 
 3.16
 Usando la formula de Nyquist (Pag 84)
