@@ -199,3 +199,57 @@ b) para el SNR de salida, con ruido termico es igual a N0 * ancho de banda(en es
 Pnoise= 0,0000001 * 8000 = 0.0008W = 0.8mW
 SNR: Po/Pnoise = 0.95w/0.0008W = 1187.5
 o en escala logaritmica 30.75dB
+
+
+# Punto D
+
+caso base del codigo:
+```
+import numpy as np
+import matplotlib.pyplot as plt
+
+A_m = 5
+F_m = 4000
+A_p = 5
+f_p = 40000
+ka = 1
+
+fs = 1_000_000
+t = np.linspace(0, 0.002, int(fs*0.002))
+
+moduladora = A_m*np.cos(2*np.pi*F_m*t)
+portadora = A_p*np.cos(2*np.pi*f_p*t)
+modulacion_AM = A_p*(1+ka*np.cos(2*np.pi*F_m*t))*np.cos(2*np.pi*f_p*t)
+
+plt.figure(figsize=(10,8))
+
+plt.subplot(3,1,1)
+plt.title("Señal de mensaje o moduladora")
+plt.plot(t, moduladora, "g")
+plt.ylabel("amplitud")
+
+plt.subplot(3,1,2)
+plt.title("Señal portadora")
+plt.plot(t, portadora, "r")
+plt.ylabel("amplitud")
+
+plt.subplot(3,1,3)
+plt.title("Modulación AM")
+plt.plot(t, modulacion_AM, "y")
+plt.ylabel("amplitud")
+plt.xlabel("tiempo (s)")
+
+plt.tight_layout()
+plt.show()
+```
+*Resultado:*
+
+![Image 1](img1.png)
+
+*prueba con frecuencia portadora menor y amplitud portadora mayor:*
+
+![Image 2](img2.png)
+
+*prueba con frecuencia portadora mayor y amplitud moduladora mayor:*
+
+![Image 3](img3.png)
