@@ -1,3 +1,7 @@
 1A) La capa de enlace de datos, correspondiente a la capa 2 del modelo OSI, se encarga de la comunicación entre dispositivos conectados al mismo enlace o red local. Su función es recibir los datos de la capa de red, organizarlos en tramas y agregar la información necesaria para que puedan ser transmitidos a través del medio físico. Además, permite identificar los dispositivos dentro de la red local y detectar posibles errores durante la transmisión.
 
 1B) La dirección MAC es código único de 48 bits que identifica de forma física a una tarjeta de red o dispositivo que tenga conexión a la red, mientras que la dirección IP es la dirección que nos da el ISP para nuestra conexión de internet. 
+
+ 1C) Una trama Ethernet es la unidad de información que utiliza Ethernet para transmitir datos en una red local. Está formada por distintos campos. El preámbulo y el SFD permiten sincronizar la comunicación e indicar el inicio de la trama. Luego se encuentran las direcciones MAC de destino y de origen, que identifican al receptor y al emisor. El campo Tipo/Longitud indica qué protocolo se encuentra encapsulado o el tamaño de los datos. El campo de datos contiene la información transmitida y, si es necesario, se agrega padding para alcanzar el tamaño mínimo de la trama. Finalmente, el campo FCS permite detectar errores durante la transmisión mediante un código CRC.
+ <img width="577" height="92" alt="image" src="https://github.com/user-attachments/assets/563f07a5-f2d3-49c7-a885-9a789564472b" />
+
