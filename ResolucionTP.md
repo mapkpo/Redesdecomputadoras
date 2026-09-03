@@ -1,1 +1,1 @@
-
+1B) La dirección MAC es código único de 48 bits que identifica de forma física a una tarjeta de red o dispositivo que tenga conexión a la red, mientras que la dirección IP es la dirección que nos da el ISP para nuestra conexión de internet. 
