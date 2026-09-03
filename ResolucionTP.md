@@ -1,1 +1,3 @@
+1A) La capa de enlace de datos, correspondiente a la capa 2 del modelo OSI, se encarga de la comunicación entre dispositivos conectados al mismo enlace o red local. Su función es recibir los datos de la capa de red, organizarlos en tramas y agregar la información necesaria para que puedan ser transmitidos a través del medio físico. Además, permite identificar los dispositivos dentro de la red local y detectar posibles errores durante la transmisión.
+
 1B) La dirección MAC es código único de 48 bits que identifica de forma física a una tarjeta de red o dispositivo que tenga conexión a la red, mientras que la dirección IP es la dirección que nos da el ISP para nuestra conexión de internet. 
