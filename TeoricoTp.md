@@ -22,7 +22,9 @@
 
 4.2. ¿Cuáles son las limitaciones del par trenzado?
 
-4.3. ¿Cuál es la diferencia entre el par trenzado no apantallado y el par trenzado apantallado?4.4. Describir los principales componentes del cable de fibra óptica.
+4.3. ¿Cuál es la diferencia entre el par trenzado no apantallado y el par trenzado apantallado?
+
+4.4. Describir los principales componentes del cable de fibra óptica.
 
 4.5. ¿Qué ventajas y desventajas tiene la transmisión de microondas?
 
@@ -73,6 +75,24 @@ La señal analoga es mas sensible al ruido y a los errores, mientras que la digi
 - tasa de errores
   
 En conjunto los primeros dos factores no pueden incrementarse indefinidamente sin que los factores 3 y 4 reduzcan la tasa de transmisión de información efectiva y aumente el costo.
+
+4.1 Hay 2 cables en un par trenzado para poder cerrar el circuito electrico, uno de los cables lleva la señal del emisor al receptor y el otro cable sirve como retorno para cerrar el circuito.
+
+4.2 El par trenzado es el metodo mas comun y economico usado, pero tambien tiene limitaciones, como permtir distancias menores, menor ancho de banda y menor velocidad de transmisión que otros medios guiados como el cable coaxial o la fibra optica.
+
+-Al transmitir señales analógicas exige amplificadores cada 5 km o 6 km. Para transmisión digital , el par requiere repetidores cada 2 km o 3 km.
+-La atenuación crece notablemente con la frecuencia, lo que limita su uso a distancias cortas o velocidades moderadas.
+-Se caracteriza por su gran susceptibilidad a las interferencias y al ruido, debido a su fácil acoplamiento con campos electromagnéticos externos. 
+
+4.3 La diferencia ente el par trenzado apantallado y el no apantallado es basicamente la proteccion del blidaje metalico que mejora la resistencia al ruido y permite mayores velocidades a costa de un mayor costo y complejidad para instalarlo.
+
+4.4 Un cable de fibra óptica tiene forma cilíndrica y está formado por tres secciones concéntricas:el núcleo, el revestimiento y la cubierta.
+
+- El nucleo: Es la sección más interna, está constituido por una o varias fibras de cristal o plástico, con un diámetro entre 8 y 100m.
+- EL revestimiento: que no es sino otro cristal o plástico conpropiedades ópticas distintas a las del núcleo. La separación entre el núcleo y el revestimiento actúa como un reflector, confinando así el haz de luz, ya que de otra manera escaparía del núcleo.
+- La cubierta: está hecha de plástico y otros materiales dispuestos en capas para proporcionar protección contra la humedad, la abrasión, posibles aplastamientos y otros peligros.
+
+
 
 ---
 # Ejercicios
