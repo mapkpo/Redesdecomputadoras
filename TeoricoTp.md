@@ -28,7 +28,11 @@
 
 4.5. ¿Qué ventajas y desventajas tiene la transmisión de microondas?
 
-4.6. ¿Qué es la difusión directa por satélite (DBS, Direct Broadcast Satellite)?4.7. ¿Por qué un satélite debe usar frecuencias ascendentes y descendentes distintas?4.8. Indique las diferencias más significativas entre la difusión de radio y las microondas.
+4.6. ¿Qué es la difusión directa por satélite (DBS, Direct Broadcast Satellite)?
+
+4.7. ¿Por qué un satélite debe usar frecuencias ascendentes y descendentes distintas?
+
+4.8. Indique las diferencias más significativas entre la difusión de radio y las microondas.
 
 4.9. ¿Qué dos funciones realiza una antena?
 
@@ -38,7 +42,9 @@
 
 4.12. ¿Qué factores determinan la ganancia de una antena?
 
-4.13. ¿Cuál es la principal causa de la pérdida de señal en comunicaciones vía satélite?4.14. ¿Qué es la refracción?
+4.13. ¿Cuál es la principal causa de la pérdida de señal en comunicaciones vía satélite?
+
+4.14. ¿Qué es la refracción?
 
 4.15. ¿Qué diferencia hay entre difracción y dispersión?
 
@@ -92,7 +98,30 @@ En conjunto los primeros dos factores no pueden incrementarse indefinidamente si
 - EL revestimiento: que no es sino otro cristal o plástico conpropiedades ópticas distintas a las del núcleo. La separación entre el núcleo y el revestimiento actúa como un reflector, confinando así el haz de luz, ya que de otra manera escaparía del núcleo.
 - La cubierta: está hecha de plástico y otros materiales dispuestos en capas para proporcionar protección contra la humedad, la abrasión, posibles aplastamientos y otros peligros.
 
+4.5 
 
+4.6 La difusión directa via satelite (DBM) es la aplicación mas reciente de la tecnologia satelital a la televisión, en la que la señal de vídeo se transmite directamente desde el satélite a los domicilios de los usuarios, sin pasar por estaciones receptoras intermedias que redistribuyan la programación.
+Esta difusion se diferencia del modelo tradicional de distribución de TV via satelite, donde una emisora local transmite la programación al satelite, y este la difunde a una serie de estaciones receptoras, las cuales luego redistribuyen la señal a los usuarios finales.
+
+4.7 Un satelite debe utilizar frecuencias ascendentes y descendentes distintas porque en una transmisión continua y sin interferencias, el satélite no puede transmitir y recibir en el mismo rango de frecuencias al mismo tiempo.
+Si el satelite recibiera la señal de las estaciones terrestres y simultáneamente, retransmitiera su propia señal en la misma banda, la señal fuerte que el propio satelite está emitiendo interferiría y se mezclaría con la señal débil que está tratando de recibir desde tierra, haciendo imposible distinguir una de la otra.
+Por esto los satelites usan un canal ascendente y uno descendente, esta separación de frecuencias es lo que permite que el satelite funcione como un repetidor eficaz. Recibe en una banda, amplifica o repite la señal, y la retransmite en otra banda diferente, evitando así la interferencia entre la señal entrante y la saliente.
+
+4.8
+
+4.9
+
+4.10
+
+4.11
+
+4.12
+
+4.13
+
+4.14
+
+4.15
 
 ---
 # Ejercicios
