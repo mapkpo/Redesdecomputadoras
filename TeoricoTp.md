@@ -98,7 +98,16 @@ En conjunto los primeros dos factores no pueden incrementarse indefinidamente si
 - EL revestimiento: que no es sino otro cristal o plástico conpropiedades ópticas distintas a las del núcleo. La separación entre el núcleo y el revestimiento actúa como un reflector, confinando así el haz de luz, ya que de otra manera escaparía del núcleo.
 - La cubierta: está hecha de plástico y otros materiales dispuestos en capas para proporcionar protección contra la humedad, la abrasión, posibles aplastamientos y otros peligros.
 
-4.5 
+4.5 Ventajas : mayor separacion y menor cantidad de repetidores
+    Gran ancho de banda y alta velocidad de transmisión
+    Menor coste y facilidad de despliegue frente a los cables
+
+Desventajas : Exigencia de linea de vista directa y alineacion estricta 
+        Atenuacion por lluvia y absorcion por oxigeno y vapor de agua
+        Peligro de solapamiento y interferencias, se tiene que realizar una asignacion de bandas muy estricta
+        Retardo de propagacion ~250 ms
+
+
 
 4.6 La difusión directa via satelite (DBM) es la aplicación mas reciente de la tecnologia satelital a la televisión, en la que la señal de vídeo se transmite directamente desde el satélite a los domicilios de los usuarios, sin pasar por estaciones receptoras intermedias que redistribuyan la programación.
 Esta difusion se diferencia del modelo tradicional de distribución de TV via satelite, donde una emisora local transmite la programación al satelite, y este la difunde a una serie de estaciones receptoras, las cuales luego redistribuyen la señal a los usuarios finales.
