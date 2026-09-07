@@ -108,12 +108,19 @@ Si el satelite recibiera la señal de las estaciones terrestres y simultáneamen
 Por esto los satelites usan un canal ascendente y uno descendente, esta separación de frecuencias es lo que permite que el satelite funcione como un repetidor eficaz. Recibe en una banda, amplifica o repite la señal, y la retransmite en otra banda diferente, evitando así la interferencia entre la señal entrante y la saliente.
 
 4.8 La diferencia mas significativa es la direccionalidad, las ondas de radio son omnidireccionales, es decir que se propagan en todas las direcciones. Mientras que las microondas viajan concentradas en un haz direccional, por lo que necesitan antenas parabólicas bien alineadas para transmitir, algo que las ondas de radio no requieren
+Rango : microondas van desde 1 a 40 GHZ , ondas de radio, tomando en cuenta la banda vhf y parte de uhf, van desde los 30mhz a 1ghz
+Atenuacion : para las ondas de radio interviene el ruido cosmico y la dispersion por inversion termica, mientras que la microondas son atenuadas por la lluvia por encima de los 10ghz, es atenuacion atmosferica debida al vapor de agua y al oxigeno
 
-4.9
+4.9 La antena realiza dos funciones :
+    Transmisión: la energia electrica proveniente del transmisor se convierte a energia electromagnética en la antena, radiandose al entorno cercano.
+    Recepción: la energia electromagnetica caoturada por la antena se convierte a energia electrica y se pasa al receptor.
 
-4.10
+4.10 Es un punto en el espacio que radia potencia de igual forma en todas las direcciones. Es un modelo teorico ideal ya que no existe ninguna antena perfecta, sin embargo sirve como un estandar de referencia para medir ganancia y direccionalidad
 
-4.11
+4.11 La principal ventaja es su direccionalidad y ganancia
+    En trasmision, la energia emitida rebota en el plato y sale proyectada en rayos paralelos y evita que la energi se disperse en todas direcciones permitiendo que viaje muchos kilometros.
+    En recepcion, el plato capta todas las ondas y las concentra en un unico punto, amplificando esa señal recibida
+    Ese mismo enfoque y recepcion unico, ignora el ruido y señales de interferencia.
 
 4.12 Los factores que determinan la ganancia de la antena son, el area efectiva y la longitud de onda o la frecuencia de la protadora. 
 Segun la sigueinte ecuacion:
