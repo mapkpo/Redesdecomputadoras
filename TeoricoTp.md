@@ -117,7 +117,8 @@ Por esto los satelites usan un canal ascendente y uno descendente, esta separaci
 
 4.12
 
-4.13
+4.13 La principal causa de perdida de la senal en comunicaciones satelitales es la distancia entre la antena emisora y la receptora.
+Tambien podemos mencionar al scattering como una de las cusas de la perdida de comunicacion, el cual es fenómeno que consiste en el cambio de dirección o frecuencia que sufre una onda al encontrarse con partículas de materia.
 
 4.14 La refracción es un fenómeno producido cuando una onda electromagnética se desvía debido a un cambio en el medio que atraviesa. Esto se debe a que la velocidad de la onda electromagnética varia dependiendo de la densidad del medio que atraviesas ocasionando que esta se desvié.
 
