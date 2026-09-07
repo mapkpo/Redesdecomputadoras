@@ -107,7 +107,7 @@ Esta difusion se diferencia del modelo tradicional de distribución de TV via sa
 Si el satelite recibiera la señal de las estaciones terrestres y simultáneamente, retransmitiera su propia señal en la misma banda, la señal fuerte que el propio satelite está emitiendo interferiría y se mezclaría con la señal débil que está tratando de recibir desde tierra, haciendo imposible distinguir una de la otra.
 Por esto los satelites usan un canal ascendente y uno descendente, esta separación de frecuencias es lo que permite que el satelite funcione como un repetidor eficaz. Recibe en una banda, amplifica o repite la señal, y la retransmite en otra banda diferente, evitando así la interferencia entre la señal entrante y la saliente.
 
-4.8
+4.8 La diferencia mas significativa es la direccionalidad, las ondas de radio son omnidireccionales, es decir que se propagan en todas las direcciones. Mientras que las microondas viajan concentradas en un haz direccional, por lo que necesitan antenas parabólicas bien alineadas para transmitir, algo que las ondas de radio no requieren
 
 4.9
 
