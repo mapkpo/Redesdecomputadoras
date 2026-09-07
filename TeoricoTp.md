@@ -119,7 +119,7 @@ Por esto los satelites usan un canal ascendente y uno descendente, esta separaci
 
 4.13
 
-4.14
+4.14 La refracción es un fenómeno producido cuando una onda electromagnética se desvía debido a un cambio en el medio que atraviesa. Esto se debe a que la velocidad de la onda electromagnética varia dependiendo de la densidad del medio que atraviesas ocasionando que esta se desvié.
 
 4.15
 
