@@ -115,14 +115,20 @@ Por esto los satelites usan un canal ascendente y uno descendente, esta separaci
 
 4.11
 
-4.12
+4.12 Los factores que determinan la ganancia de la antena son, el area efectiva y la longitud de onda o la frecuencia de la protadora. 
+Segun la sigueinte ecuacion:
 
-4.13 La principal causa de perdida de la senal en comunicaciones satelitales es la distancia entre la antena emisora y la receptora.
-Tambien podemos mencionar al scattering como una de las cusas de la perdida de comunicacion, el cual es fenómeno que consiste en el cambio de dirección o frecuencia que sufre una onda al encontrarse con partículas de materia.
+$$G=\frac{4\pi A_e}{\lambda^2}=\frac{4\pi f^2A_e}{c^2}$$
+
+Tambien deberiamos tener en cuenta la potencia de salida de la antena en una direccion, comparada a con la potencia transmitida en cualquier direccion.
+
+4.13 La principal causa de perdida de la señal en comunicaciones satélites es la distancia entre la antena emisora y la receptora.
+También podemos mencionar al scattering como una de las cusas de la perdida de comunicación, el cual es fenómeno que consiste en el cambio de dirección o frecuencia que sufre una onda al encontrarse con partículas de materia.
 
 4.14 La refracción es un fenómeno producido cuando una onda electromagnética se desvía debido a un cambio en el medio que atraviesa. Esto se debe a que la velocidad de la onda electromagnética varia dependiendo de la densidad del medio que atraviesas ocasionando que esta se desvié.
 
-4.15
+4.15 La difracción es el fenómeno que nos habla del comportamiento de las ondas electromagnéticas en presencia de obstáculos de gran tamaño un ejemplo de esto podría ser un edificio. Por otro lado la dispersión nos habla mas sobre el comportamiento de la onda frente a objetos pequeños como gotas de lluvia o niebla.
+
 
 ---
 # Ejercicios
