@@ -17,7 +17,7 @@
 3.8. Defina la capacidad de un canal.
 
 3.9. ¿Qué factores clave afectan a la capacidad de un canal?
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 4.1 ¿Por qué hay dos cables en un par trenzado de cobre?
 
 4.2. ¿Cuáles son las limitaciones del par trenzado?
@@ -47,7 +47,7 @@
 4.14. ¿Qué es la refracción?
 
 4.15. ¿Qué diferencia hay entre difracción y dispersión?
--------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
 15.1. ¿Qué diferencias hay entre los requisitos clave para las redes existentes en salas de computadores de aquellos necesarios para redes de área local de computadores personales?
 
 15.2. ¿Qué diferencias hay entre una red LAN de respaldo, una red SAN y una red LAN troncal?
@@ -375,3 +375,64 @@ plt.show()
 *prueba con frecuencia portadora mayor y amplitud moduladora mayor:*
 
 ![Image 3](img3.png)
+
+4.1 
+
+Calculamos cuantos disquetes transporta el avion. El avion transporta 10.000 kg de disquetes y cada disquete pesa 0,03 kg entonces si hacemos la division 10000/0.03 = 333.333,33 disquetes.
+
+sabemos que cada disquete transportan 1.4 Mbytes de datos, entonces la cantidad total de datos que transporta el avion es 1.4 Mbytes x 333.333,33 = 466.666,67 MB.
+
+nos piden la velocidad en bits, asi que calculamos los bits multiplicando por 1 000 000 y luego x 8 = 3,733 ×10^12 bits.
+
+ahora calculamos el tiempo del viaje, 5.0000 km a 1000km/h es igual a 5 horas o 18.000 segundos. entonces la velocidad de transmision seran los datos/tiempo:
+
+3,733 ×10^12 bits / 18.000 seg = 2,07×10^8 bits/seg.
+
+
+4.2
+
+La formula de dB para perdida/ganancia es:
+
+dB= 10 log10 (P salida / P entrada)
+
+si tenemos una perdida de 20 dB y la potencia de la señal de entrada es de 0.5 W
+
+-20 = 10 log10 (P salida / 0.5)
+
+log10 (P salida / 0.5 )= -2 
+
+P salida = 0.005 W o 5000 uW.
+
+ahora con estos datos calculamos la relacion señal ruido en la salida:
+
+S/N = 5000 uW / 4,5 uW = 1.111,1
+
+y por ultimo convertimos a dB.
+
+10 log10 (1.111,1) = 30,46 dB.
+
+
+4.3
+
+Dada la fuente de 100 W y la potencia a recibir de 1 W, la perdida maxima seria:
+
+dB = 10 log10 (100/1) = 20 dB.
+
+ahora usamos las tablas empiricas de cada uno de los medios para obtener la atenuacion de cada medio:
+
+a) par trenzado a 300khz = 13 db/ km.
+b) par trenzado a 1 Mhz = 20 db/km.
+c) cable coaxial a 1 Mhz = 2,5 db/km. 
+d) cable coaxial a 25 Mhz = 10 db/km.
+e) fibra optica a frecuencia ideal = 0.2 db/km.
+
+con estos valores puedo calcular la maxima longitud alcanzable (dB/atenuacion):
+
+a) 1,5 Km
+b) 1 Km
+c) 8 Km
+d) 2 Km
+e) 100 Km
+
+
+
