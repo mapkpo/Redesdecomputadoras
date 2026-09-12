@@ -173,6 +173,28 @@ También podemos mencionar al scattering como una de las cusas de la perdida de 
 4.15 La difracción es el fenómeno que nos habla del comportamiento de las ondas electromagnéticas en presencia de obstáculos de gran tamaño un ejemplo de esto podría ser un edificio. Por otro lado la dispersión nos habla mas sobre el comportamiento de la onda frente a objetos pequeños como gotas de lluvia o niebla.
 
 
+15.1 La principal diferencia entre las LAN de computadoras personales y redes en salas de computadores es la velocidad y el precio. El requisito principal de las redes de respaldo es la transferencia elevada de datos entre un número limitado de dispositivos en un área reducida, junto con la alta fiabilidad. en cambio en las redes LAN personales el requisito principal es el bajo coste ("El coste de la conexión a la red debe ser significativamente menor que el del propio dispositivo conectado"). A menor coste tambien signifca que la velocidad de la red puede quedarse liimitada, por eso en redes con dispositivos muy caros conectados es mas que recomendable la inversion en redes mas veloces y de mayor costo.
+
+15.2 La principal diferencia entre una red LAN de respaldo, una SAN y una red LAN troncal es que resuelven distintos problemas.
+
+La red de respaldo interconecta sistemas grandes y caros: mainframes, supercomputadores y dispositivos de almacenamiento masivo, dentro de una sala de computadoras. Su objetivo es la transferencia de datos a muy alta velocidad entre un número reducido de dispositivos con alta fiabilidad.
+
+La red SAN es una evolucion de la red de respaldo,esta es una red de respaldo especializada y reestructurada específicamente para el almacenamiento, que desliga las tareas de almacenamiento de servidores específicos.
+
+por ultimo la red LAN troncal resuelve un problema distinto, no de rendimiento entre dispositivos caros, sino de organizacion de conexiones entre multiples LAN, esta surge porque desplegar una única LAN para todo un edificio tiene tres problemas serios:
+
+Fiabilidad: una caída de esa LAN única afecta a todos los usuarios.
+Capacidad: se satura a medida que crece el número de dispositivos conectados.
+Coste: una sola tecnología de LAN no es óptima para todos los requisitos de interconexión, y forzar a microcomputadores baratos a usar una red de gran capacidad no tiene sentido economico.
+
+La solucion a esto es usar LAN de menor coste y capacidad por edificio o departamento, e interconectarlas todas mediante una LAN de mayor capacidad, que es justamente la LAN troncal.
+
+15.3 "En el contexto de una red de comunicaciones, el término topología se refiere a la forma según la cual se interconectan entre sí los puntos finales, o estaciones, conectados a la red".
+
+la topologia describe el patron geometrico y logico de interconexion entre las estaciones de la red, se describen 4 topologias LAN principales: Bus, arbol, anillo y estrella.
+
+
+
 ---
 # Ejercicios
 
