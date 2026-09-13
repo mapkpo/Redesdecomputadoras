@@ -456,5 +456,14 @@ c) 8 Km
 d) 2 Km
 e) 100 Km
 
+4.4
+
+El conectar la malla exterior a la tierra, supone varias ventajas:
+
+1. Absorbe ondas electromagneticas ambientales, esas corriente parasitas son derivadas hacia tierra, impidiendo que induzcan algun efecto sobre el conductor central.
+2. La misma señal que viaja por el conductor central, no se escapa de ese mismo entorno, evitando interferencias en otros cable o dispositivos cercanos
+3. La malla funciona como seguridad electrica tambien, si el cable sufre alguna descarga electrostatica, contacto con otro cable externo o algun fenomeno natural, esa energia es desviada de forma segura protegiendo equipos electronicos y personas.
+4. Funciona como referencia estable de 0V
 
 
+4.5 
