@@ -593,6 +593,14 @@ $$
 L_{dB} = 32,44 + 20 log_{10}(f_{MHz}) + 20 log_{10}(d_{Km})
 $$
 
+4.13
+
+<img width="805" height="1280" alt="image" src="https://github.com/user-attachments/assets/c1b59114-fd60-4e6e-a6e9-8e0d28e43609" />
+
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7479a72e-5173-4ab2-bd61-9a200d8b1cf4" />
+
+
 4.14
 Un transmisor de microondas tiene una salida de 0,1 W a 2 GHz. Suponga que este transmisor se utiliza en un sistema de comunicación de microondas en el que las antenas transmisora y receptora son parábolas, cada una con un diámetro igual a 1,2 m.
 a) ¿Cuál es la ganancia de cada antena en decibelios?
@@ -610,11 +618,28 @@ $$G_{dB} = 10 \log_{10}(351.86) \approx 25.46 \text{ dB}$$
 b) Para saber la potencia efectiva 
 
 
-4.13
 
-<img width="805" height="1280" alt="image" src="https://github.com/user-attachments/assets/c1b59114-fd60-4e6e-a6e9-8e0d28e43609" />
+4.16
 
+La linea de vision se puede expresar como (pag121):
 
-<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7479a72e-5173-4ab2-bd61-9a200d8b1cf4" />
+$$
+d = 3,57\sqrt{Kh}
+$$
 
+Teniendo en cuenta tambien la refraccion que sufren las ondas $K= 4/3$
 
+Tomando $d = 80Km$
+
+$$
+80 = 3,57\sqrt{4/3 . h}
+$$
+La altura de la antena seria:
+$$
+h ≈ 377m
+$$
+Pero sin tomar en cuenta la refraccion(K=1), la altura de la antena quedaria:
+
+$$
+h ≈ 502m
+$$
