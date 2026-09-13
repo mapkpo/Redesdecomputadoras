@@ -471,5 +471,14 @@ El conectar la malla exterior a la tierra, supone varias ventajas:
 
 
 
-4.8   Recibiría una señal de 60 GHz. 
+4.8   
+
+Recibiría una señal de 60 GHz. 
 <img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/e8a69e49-6dcc-4c1f-90e0-d629ad590fda" />
+
+
+4.9
+
+Es lo mismo duplicar frecuencia o duplicar área de antena, el aumento será de 6dB
+<img width="992" height="1280" alt="image" src="https://github.com/user-attachments/assets/ae1d4618-d4db-43d3-991b-f0d78547bd3d" />
+
