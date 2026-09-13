@@ -513,7 +513,19 @@ $$
 La longitud teórica de la antena para transmitir a 30 Hz es
 de 5.000 kilómetros.
 
+4.7 
 
+a) La longitud de una antena para enviar una señal de 300 Hz se puede calcular teniendo en cuenta la relacion entre la longitud de onda λ, la frecuencia f y la velocidad de la luz. Con esto podemos calcular la longitud de onda. 
+λ = c/f = 3*10^8/300 = 1.000.000 metros
+Entonces ahora teniendo una longuitud de onda y teniendo en cuanta que nos dicen en la consina que la longitud de la antena sera equivalente a la mitad de onda. Podemos calcularla como.
+Longitud = λ/2 = 1.000.000/2 = 500.000 metros.
+Por lo cual nuestra antena para poder transmitir señales de voz directamente seria de 500 km de largo
+
+b) Si tenemos una antena de 1 metro de longitud y queremos saber la frecuencia necesaria de la señal portadora entonces podemos usar la relacion anterior. Primero debemos calcular la longitud de onda entonces Longitud = λ/2.
+λ = 1*2 = 2 metros de longitud de onda
+Ahora con la longitud de onda calculamos la frecuencia de la señal. 
+λ = c/f  => f = c/λ = 3*10^8/2 = 150.000.000
+Entonces la señal portadora tendrá una frecuencia de 150Mhz
 
 4.8   
 
