@@ -526,3 +526,8 @@ Recibiría una señal de 60 GHz.
 Es lo mismo duplicar frecuencia o duplicar área de antena, el aumento será de 6dB
 <img width="992" height="1280" alt="image" src="https://github.com/user-attachments/assets/ae1d4618-d4db-43d3-991b-f0d78547bd3d" />
 
+4.10
+
+<img width="750" height="337" alt="image" src="https://github.com/user-attachments/assets/3390ad24-765f-41f3-8bd1-5079e915b413" />
+
+
