@@ -543,3 +543,50 @@ Es lo mismo duplicar frecuencia o duplicar área de antena, el aumento será de 
 <img width="750" height="337" alt="image" src="https://github.com/user-attachments/assets/3390ad24-765f-41f3-8bd1-5079e915b413" />
 
 
+
+
+
+4.12
+
+Reescribiendo la ecuacion
+
+$$
+L_{dB}= 20 log_{10}(f) + 20 log_{10}(d) - 147,56 db
+$$
+
+que es la ecuacion, ya reescrita, de perdida en el espacio libre.
+
+Necesitamos adaptarla para unidades mas grandes
+
+$f = f_{Mhz} \times 10⁶$ Frecuencia en Megas
+
+$d = d_{km} \times 10³$ Distancia en kilometros
+
+Reemplazando
+
+$$
+L_{dB}= 20 log_{10}(f_{Mhz} \times 10⁶) + 20 log_{10}(d_{km} \times 10³) - 147,56 db
+$$
+
+Aplicando reglas logaritmicas
+
+$log(A\times B) = log(A) + log(B)$
+
+Queda:
+
+$$
+L_{dB}= 20 log_{10}(f_{Mhz}) + 20 log_{10}(10⁶) + 20 log_{10}(d_{km})+ 20 log_{10}(10³) - 147,56 db
+$$
+
+Resolviendo 
+
+$20 log_{10}(10⁶) = 20 \times 6 = 120$
+
+$20 log_{10}(10³) = 20 \times 3 = 60$
+
+$120 + 60 = 180$
+$180 - 147,65 = +32,44$
+
+$$
+L_{dB} = 32,44 + 20 log_{10}(f_{MHz}) + 20 log_{10}(d_{Km})
+$$
