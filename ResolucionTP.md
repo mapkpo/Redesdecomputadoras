@@ -91,7 +91,7 @@ El four way handshake cierra la conexion en ambas direcciones:
 - ->ACK(receptor) el iniciador reconoce el cierre
 
 
-## 4C)
+## 4)
 En wireshark usando la regla de mascara "tcp.port == 5555 || udp.port == 5555" podemos capturar la informacion de transmision con el server del profe.
 <img width="2746" height="703" alt="image" src="https://github.com/user-attachments/assets/6b9f0be6-7601-4f3e-b38f-e552b86365e7" />
 
