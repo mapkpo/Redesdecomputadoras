@@ -90,6 +90,39 @@ El four way handshake cierra la conexion en ambas direcciones:
 - <-FIN(receptor) el receptor termino de enviar sus datos pendientes y cierra su propia conexion
 - ->ACK(receptor) el iniciador reconoce el cierre
 
+## 3DEF)
+  Teniendo abierto el wireshark con adapter for loopback, luego abriendo amabas instancias del packet sender y configurando el puerto abierto, en este caso fue 51200, podemos ver los envios de informacion y el handshake de finalizacion de conexion, lo cual nos deja ver a simple vista lo facil que es espiar informacion estando conectando en una red, simplemente sabiendo en donde buscar 
+  <img width="1144" height="302" alt="image" src="https://github.com/user-attachments/assets/65c36d4b-3d1f-4d51-a6ba-75e3bbeb6639" />
+```
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 1, Ack: 1, Len: 41
+Data (41 bytes)
+
+0000  63 75 69 64 61 64 6f 2c 20 6c 61 20 69 6e 66 6f   cuidado, la info
+0010  72 63 6d 61 63 69 6f 6e 20 63 6f 6e 66 69 64 65   rcmacion confide
+0020  6e 63 69 61 6c 20 65 73 0d                        ncial es.
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 35.167630400   127.0.0.1             127.0.0.1             TCP      44     51200 → 51210 [ACK] Seq=1 Ack=42 Win=2619648 Len=0
+
+Frame 15: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51200, Dst Port: 51210, Seq: 1, Ack: 42, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 48.178466400   127.0.0.1             127.0.0.1             TCP      75     51210 → 51200 [PSH, ACK] Seq=42 Ack=1 Win=2619648 Len=31
+
+Frame 28: Packet, 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 42, Ack: 1, Len: 31
+Data (31 bytes)
+
+0000  73 65 20 6d 65 20 6a 69 6a 65 61 6e 20 6c 6f 73   se me jijean los
+0010  20 6a 69 6a 6f 6c 69 6e 65 73 2e 65 78 65 0d       jijolines.exe.
+```
+
 
 ## 4)
 En wireshark usando la regla de mascara "tcp.port == 5555 || udp.port == 5555" podemos capturar la informacion de transmision con el server del profe.
