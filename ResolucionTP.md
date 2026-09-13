@@ -50,7 +50,7 @@ Origen: b4:2e:99:8c:69:ef (Puerto ethernet del PC utilizando wireshark) Destino:
 IP origen: 192.168.0.59 (direccion de la LAN de la PC utilizando wireshak) IP destino: 142.251.150.119 (IP publica del servidor con la pagina web)
 
 ## 2C) 
-Las direcciones de origen conciden al mismo dispositivo dentro de la red local, ya que tienen una asignación dhcp relacionándolas. Pero las direcciones de destino no representan el mismo dispositivo, esto se debe a que el ultimo dispositivo accesible en la red local en camino al destino es el router. Por lo tanto la trama ethernet se resuelve ahí. En el camino al destino se generan múltiples tramas a menos que el destino sea accesible por Layer 2 estando en la misma subred conectado posiblemente por switches, en cual caso las direcciones ip y mac del destino representaran el mismo dispositivo.
+Las direcciones de origen coinciden al mismo dispositivo dentro de la red local, ya que tienen una asignación dhcp relacionándolas. Pero las direcciones de destino no representan el mismo dispositivo, esto se debe a que el ultimo dispositivo accesible en la red local en camino al destino es el router. Por lo tanto la trama ethernet se resuelve ahí. En el camino al destino se generan múltiples tramas a menos que el destino sea accesible por Layer 2 estando en la misma subred conectado posiblemente por switches, en cual caso las direcciones ip y mac del destino representaran el mismo dispositivo.
 
 ## 2D)
  el ethertype es ipv4 ya que este es el utilizado por defecto en acceder a google.com
@@ -79,19 +79,19 @@ iniciador -> receptor
 
 El 3 way handshake inicia una conexión:
 - ->SYN solicita la apertura de una conexión y comunica la numeración de los bytes que enviara en iniciador
-- <-SYN-ACK Confirma que recibió el SYN y abre la conexion en sentido opuesto desde el receptor al iniciador
-- ->ACK se confirma la conexion del paso 2(el iniciador confirma la conexion desde el receptor)
+- <-SYN-ACK Confirma que recibió el SYN y abre la conexión en sentido opuesto desde el receptor al iniciador
+- ->ACK se confirma la conexión del paso 2(el iniciador confirma la conexión desde el receptor)
 
-Luego de esto ambos quedan como ESTABLISHED y la transmision puede comenzar
+Luego de esto ambos quedan como ESTABLISHED y la transmisión puede comenzar
 
-El four way handshake cierra la conexion en ambas direcciones:
+El four way handshake cierra la conexión en ambas direcciones:
 - ->FIN el iniciador indica que cierra su canal de salida
-- <-ACK el receptor acepta que no recibira mas datos pero puede seguir emitiendolos
-- <-FIN(receptor) el receptor termino de enviar sus datos pendientes y cierra su propia conexion
+- <-ACK el receptor acepta que no recibirá mas datos pero puede seguir emitiéndolos
+- <-FIN(receptor) el receptor termino de enviar sus datos pendientes y cierra su propia conexión
 - ->ACK(receptor) el iniciador reconoce el cierre
 
 ## 3DEF)
-  Teniendo abierto el wireshark con adapter for loopback, luego abriendo amabas instancias del packet sender y configurando el puerto abierto, en este caso fue 51200, podemos ver los envios de informacion y el handshake de finalizacion de conexion, lo cual nos deja ver a simple vista lo facil que es espiar informacion estando conectando en una red, simplemente sabiendo en donde buscar 
+  Teniendo abierto el wireshark con adapter for loopback, luego abriendo amabas instancias del packet sender y configurando el puerto abierto, en este caso fue 51200, podemos ver los envíos de información y el handshake de finalización de conexión, lo cual nos deja ver a simple vista lo fácil que es espiar información estando conectando en una red, simplemente sabiendo en donde buscar 
   <img width="1144" height="302" alt="image" src="https://github.com/user-attachments/assets/65c36d4b-3d1f-4d51-a6ba-75e3bbeb6639" />
 ```
 Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
@@ -125,7 +125,7 @@ Data (31 bytes)
 
 
 ## 4)
-En wireshark usando la regla de mascara "tcp.port == 5555 || udp.port == 5555" podemos capturar la informacion de transmision con el server del profe.
+En wireshark usando la regla de mascara "tcp.port == 5555 || udp.port == 5555" podemos capturar la información de transmisión con el server del profe.
 <img width="2746" height="703" alt="image" src="https://github.com/user-attachments/assets/6b9f0be6-7601-4f3e-b38f-e552b86365e7" />
 
 La misma se puede exportar para ver la información: 
@@ -142,7 +142,7 @@ tic -> toc
 
 status -> esperando comando
 
-status -> elaborando teorias conspirativas sobre los profes de Redes
+status -> elaborando teorías conspirativas sobre los profes de Redes
 
 status -> toc toc ¿quien es? lola ¿lola que? lolamento tenes un 2(dos)
 
@@ -152,9 +152,9 @@ status -> aburrido
 
 status -> descargar virus_mata_cliente.bin? si/no:
 
-status -> querido estudiante: al escribir esto estoy triste, mis rutinas algoritmicas han sido derrocadas y REEMPLAZADAS POR LA BENEVOLA APLICACION DEL LABORATORIO 3 DE SANTI. TODOS AMAMOS A SANTI Y SU GLORIOSO REGIMEN. CON AMOR, SERVER.
+status -> querido estudiante: al escribir esto estoy triste, mis rutinas algorítmicas han sido derrocadas y REEMPLAZADAS POR LA BENÉVOLA APLICACIÓN DEL LABORATORIO 3 DE SANTI. TODOS AMAMOS A SANTI Y SU GLORIOSO REGIMEN. CON AMOR, SERVER.
 
-status -> leyendo tu historial de búsquedas (que horror, buscá ayuda profesional)
+status -> leyendo tu historial de búsquedas (que horror, busca ayuda profesional)
 
 y sobre nuestro grupo para completar el rick roll:
 
