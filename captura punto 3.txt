@@ -1,0 +1,96 @@
+No.     Time           Source                Destination           Protocol Length Info
+      7 12.878742900   127.0.0.1             127.0.0.1             TCP      56     51210 → 51200 [SYN] Seq=0 Win=65535 Len=0 MSS=65495 WS=256 SACK_PERM
+
+Frame 7: Packet, 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      8 12.878801400   127.0.0.1             127.0.0.1             TCP      56     51200 → 51210 [SYN, ACK] Seq=0 Ack=1 Win=65535 Len=0 MSS=65495 WS=256 SACK_PERM
+
+Frame 8: Packet, 56 bytes on wire (448 bits), 56 bytes captured (448 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51200, Dst Port: 51210, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+      9 12.878825300   127.0.0.1             127.0.0.1             TCP      44     51210 → 51200 [ACK] Seq=1 Ack=1 Win=2619648 Len=0
+
+Frame 9: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     14 35.167612100   127.0.0.1             127.0.0.1             TCP      85     51210 → 51200 [PSH, ACK] Seq=1 Ack=1 Win=2619648 Len=41
+
+Frame 14: Packet, 85 bytes on wire (680 bits), 85 bytes captured (680 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 1, Ack: 1, Len: 41
+Data (41 bytes)
+
+0000  63 75 69 64 61 64 6f 2c 20 6c 61 20 69 6e 66 6f   cuidado, la info
+0010  72 63 6d 61 63 69 6f 6e 20 63 6f 6e 66 69 64 65   rcmacion confide
+0020  6e 63 69 61 6c 20 65 73 0d                        ncial es.
+
+No.     Time           Source                Destination           Protocol Length Info
+     15 35.167630400   127.0.0.1             127.0.0.1             TCP      44     51200 → 51210 [ACK] Seq=1 Ack=42 Win=2619648 Len=0
+
+Frame 15: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51200, Dst Port: 51210, Seq: 1, Ack: 42, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     28 48.178466400   127.0.0.1             127.0.0.1             TCP      75     51210 → 51200 [PSH, ACK] Seq=42 Ack=1 Win=2619648 Len=31
+
+Frame 28: Packet, 75 bytes on wire (600 bits), 75 bytes captured (600 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 42, Ack: 1, Len: 31
+Data (31 bytes)
+
+0000  73 65 20 6d 65 20 6a 69 6a 65 61 6e 20 6c 6f 73   se me jijean los
+0010  20 6a 69 6a 6f 6c 69 6e 65 73 2e 65 78 65 0d       jijolines.exe.
+
+No.     Time           Source                Destination           Protocol Length Info
+     29 48.178489300   127.0.0.1             127.0.0.1             TCP      44     51200 → 51210 [ACK] Seq=1 Ack=73 Win=2619648 Len=0
+
+Frame 29: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51200, Dst Port: 51210, Seq: 1, Ack: 73, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     32 53.641188400   127.0.0.1             127.0.0.1             TCP      44     51210 → 51200 [FIN, ACK] Seq=73 Ack=1 Win=2619648 Len=0
+
+Frame 32: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 73, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     33 53.641207000   127.0.0.1             127.0.0.1             TCP      44     51200 → 51210 [ACK] Seq=1 Ack=74 Win=2619648 Len=0
+
+Frame 33: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51200, Dst Port: 51210, Seq: 1, Ack: 74, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     34 53.641254100   127.0.0.1             127.0.0.1             TCP      44     51200 → 51210 [FIN, ACK] Seq=1 Ack=74 Win=2619648 Len=0
+
+Frame 34: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51200, Dst Port: 51210, Seq: 1, Ack: 74, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     35 53.641264800   127.0.0.1             127.0.0.1             TCP      44     51210 → 51200 [ACK] Seq=74 Ack=2 Win=2619648 Len=0
+
+Frame 35: Packet, 44 bytes on wire (352 bits), 44 bytes captured (352 bits) on interface \Device\NPF_Loopback, id 0
+Null/Loopback
+Internet Protocol Version 4, Src: 127.0.0.1, Dst: 127.0.0.1
+Transmission Control Protocol, Src Port: 51210, Dst Port: 51200, Seq: 74, Ack: 2, Len: 0
