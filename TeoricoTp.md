@@ -468,13 +468,21 @@ El conectar la malla exterior a la tierra, supone varias ventajas:
 
 4.5 
 Doble de freq de transmisión
+
 LdB=20log(f)+20log(d)−147,56
+
 LdB*= 20log(2f) + 20log(d)−147,56 = 20[log(2) + log(f)] + 20log(d)−147,56  = 20log(2) + 20log(f)+20log(d)−147,56
+
 LdB* – LdB = 20log(2) = 6,02 dB
+
 Doble de distancia entre antenas
+
 LdB=20log(f)+20log(d)−147,56
+
 LdB*= 20log(f) + 20log(2d)−147,56 = 20log(f) + 20[log(2) + log(d)]  - 147,56  = 20log(f) + 20log(2) + 20log(d)−147,56
+
 LdB* – LdB = 20log(2) = 6,02 dB
+
 Concluimos que en ambos casos, la pérdida L aumenta 6 dB. Como L representa la relación entre la potencia transmitida y la recibida (L = 10log(Pt/Pr)), si L sube 6 dB y Pt no cambia, entonces Pr tiene que bajar.
 
 4.6
