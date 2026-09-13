@@ -100,16 +100,27 @@ La misma se puede exportar para ver la información:
 
 Las respuestas obtenidas fueron:
 hi -> Server no conocer ese comando. Mi confundido. Probar otra cosa.
+
 hola -> hola :)
+
 ping -> pong
+
 tic -> toc
+
 status -> esperando comando
+
 status -> elaborando teorias conspirativas sobre los profes de Redes
+
 status -> toc toc ¿quien es? lola ¿lola que? lolamento tenes un 2(dos)
+
 status -> escuchando Leo Mattioli
+
 status -> aburrido
+
 status -> descargar virus_mata_cliente.bin? si/no:
+
 status -> querido estudiante: al escribir esto estoy triste, mis rutinas algoritmicas han sido derrocadas y REEMPLAZADAS POR LA BENEVOLA APLICACION DEL LABORATORIO 3 DE SANTI. TODOS AMAMOS A SANTI Y SU GLORIOSO REGIMEN. CON AMOR, SERVER.
+
 status -> leyendo tu historial de búsquedas (que horror, buscá ayuda profesional)
 
 y sobre nuestro grupo para completar el rick roll:
