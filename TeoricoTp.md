@@ -610,3 +610,11 @@ $$G_{dB} = 10 \log_{10}(351.86) \approx 25.46 \text{ dB}$$
 b) Para saber la potencia efectiva 
 
 
+4.13
+
+<img width="805" height="1280" alt="image" src="https://github.com/user-attachments/assets/c1b59114-fd60-4e6e-a6e9-8e0d28e43609" />
+
+
+<img width="960" height="1280" alt="image" src="https://github.com/user-attachments/assets/7479a72e-5173-4ab2-bd61-9a200d8b1cf4" />
+
+
