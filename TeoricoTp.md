@@ -468,6 +468,33 @@ El conectar la malla exterior a la tierra, supone varias ventajas:
 
 4.5 
 
+4.6
+
+La formula de longitud de onda es:
+
+$$
+λ = \frac{c}{f}
+$$
+    
+donde c es la velocidad de la luz (c ≈ 3 × 10⁸ m/s = 300.000
+km/s) y f es la frecuencia.
+
+Teniendo una frecuencia de 30 Hz:
+
+$$
+λ = \frac{3 \times 10^8 m/s}{30Hz} = 10.
+000.000 m = 10.000 km
+$$
+
+La longitud deseable de las antenas es del orden de la mitad
+de la longitud de onda:
+
+$$
+L_a = \frac{λ}{2} = \frac{10.000}{2} = 5.000 km
+$$
+
+La longitud teórica de la antena para transmitir a 30 Hz es
+de 5.000 kilómetros.
 
 
 
