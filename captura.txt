@@ -1,0 +1,1078 @@
+No.     Time           Source                Destination           Protocol Length Info
+     25 6.786152900    192.168.1.12          34.136.251.235        TCP      66     50402 → 5555 [SYN] Seq=0 Win=64240 Len=0 MSS=1460 WS=256 SACK_PERM
+
+Frame 25: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 0, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     26 6.969434800    34.136.251.235        192.168.1.12          TCP      66     5555 → 50402 [SYN, ACK] Seq=0 Ack=1 Win=65320 Len=0 MSS=1412 SACK_PERM WS=128
+
+Frame 26: Packet, 66 bytes on wire (528 bits), 66 bytes captured (528 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 0, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+     27 6.969513900    192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=1 Ack=1 Win=262400 Len=0
+
+Frame 27: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 1, Ack: 1, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7367 48.025133400   192.168.1.12          34.136.251.235        TCP      57     50402 → 5555 [PSH, ACK] Seq=1 Ack=1 Win=262400 Len=3
+
+Frame 7367: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 1, Ack: 1, Len: 3
+Data (3 bytes)
+
+0000  68 69 0d                                          hi.
+    Data: 68690d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7368 48.208197800   34.136.251.235        192.168.1.12          TCP      60     5555 → 50402 [ACK] Seq=1 Ack=4 Win=65408 Len=0
+
+Frame 7368: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1, Ack: 4, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7369 48.208508000   34.136.251.235        192.168.1.12          TCP      118    5555 → 50402 [PSH, ACK] Seq=1 Ack=4 Win=65408 Len=64
+
+Frame 7369: Packet, 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1, Ack: 4, Len: 64
+Data (64 bytes)
+
+0000  53 65 72 76 65 72 20 6e 6f 20 63 6f 6e 6f 63 65   Server no conoce
+0010  72 20 65 73 65 20 63 6f 6d 61 6e 64 6f 2e 20 4d   r ese comando. M
+0020  69 20 63 6f 6e 66 75 6e 64 69 64 6f 2e 20 50 72   i confundido. Pr
+0030  6f 62 61 72 20 6f 74 72 61 20 63 6f 73 61 2e 0a   obar otra cosa..
+    Data: 536572766572206e6f20636f6e6f6365722065736520636f6d616e646f2e204d6920636f6e66756e6469646f2e2050726f626172206f74726120636f73612e0a
+    [Length: 64]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7370 48.258879900   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=4 Ack=65 Win=262400 Len=0
+
+Frame 7370: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 4, Ack: 65, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7396 52.045406400   192.168.1.12          34.136.251.235        TCP      59     50402 → 5555 [PSH, ACK] Seq=4 Ack=65 Win=262400 Len=5
+
+Frame 7396: Packet, 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 4, Ack: 65, Len: 5
+Data (5 bytes)
+
+0000  68 6f 6c 61 0d                                    hola.
+    Data: 686f6c610d
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7397 52.227838600   34.136.251.235        192.168.1.12          TCP      62     5555 → 50402 [PSH, ACK] Seq=65 Ack=9 Win=65408 Len=8
+
+Frame 7397: Packet, 62 bytes on wire (496 bits), 62 bytes captured (496 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 65, Ack: 9, Len: 8
+Data (8 bytes)
+
+0000  68 6f 6c 61 20 3a 29 0a                           hola :).
+    Data: 686f6c61203a290a
+    [Length: 8]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7398 52.268396200   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=9 Ack=73 Win=262400 Len=0
+
+Frame 7398: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 9, Ack: 73, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7412 55.667753800   192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=9 Ack=73 Win=262400 Len=7
+
+Frame 7412: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 9, Ack: 73, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7415 55.851772200   34.136.251.235        192.168.1.12          TCP      72     5555 → 50402 [PSH, ACK] Seq=73 Ack=16 Win=65408 Len=18
+
+Frame 7415: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 73, Ack: 16, Len: 18
+Data (18 bytes)
+
+0000  65 73 70 65 72 61 6e 64 6f 20 63 6f 6d 61 6e 64   esperando comand
+0010  6f 0a                                             o.
+    Data: 6573706572616e646f20636f6d616e646f0a
+    [Length: 18]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7416 55.900393200   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=16 Ack=91 Win=262400 Len=0
+
+Frame 7416: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 16, Ack: 91, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7489 62.542698400   192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=16 Ack=91 Win=262400 Len=7
+
+Frame 7489: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 16, Ack: 91, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7493 62.725711800   34.136.251.235        192.168.1.12          TCP      128    5555 → 50402 [PSH, ACK] Seq=91 Ack=23 Win=65408 Len=74
+
+Frame 7493: Packet, 128 bytes on wire (1024 bits), 128 bytes captured (1024 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 91, Ack: 23, Len: 74
+Data (74 bytes)
+
+0000  6c 65 79 65 6e 64 6f 20 74 75 20 68 69 73 74 6f   leyendo tu histo
+0010  72 69 61 6c 20 64 65 20 62 c3 ba 73 71 75 65 64   rial de b..squed
+0020  61 73 20 28 71 75 65 20 68 6f 72 72 6f 72 2c 20   as (que horror, 
+0030  62 75 73 63 c3 a1 20 61 79 75 64 61 20 70 72 6f   busc.. ayuda pro
+0040  66 65 73 69 6f 6e 61 6c 29 0a                     fesional).
+    Data: 6c6579656e646f20747520686973746f7269616c2064652062c3ba73717565646173202871756520686f72726f722c2062757363c3a12061797564612070726f666573696f6e616c290a
+    [Length: 74]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7494 62.776911800   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=23 Ack=165 Win=262400 Len=0
+
+Frame 7494: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 23, Ack: 165, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7506 67.613907900   192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=23 Ack=165 Win=262400 Len=7
+
+Frame 7506: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 23, Ack: 165, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7507 67.796553200   34.136.251.235        192.168.1.12          TCP      74     5555 → 50402 [PSH, ACK] Seq=165 Ack=30 Win=65408 Len=20
+
+Frame 7507: Packet, 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 165, Ack: 30, Len: 20
+Data (20 bytes)
+
+0000  63 6f 6d 69 65 6e 64 6f 20 66 6c 79 6e 6e 2d 70   comiendo flynn-p
+0010  61 66 66 0a                                       aff.
+    Data: 636f6d69656e646f20666c796e6e2d706166660a
+    [Length: 20]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7508 67.845962200   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=30 Ack=185 Win=262400 Len=0
+
+Frame 7508: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 30, Ack: 185, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7643 72.656556300   192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=30 Ack=185 Win=262400 Len=7
+
+Frame 7643: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 30, Ack: 185, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7644 72.839131400   34.136.251.235        192.168.1.12          TCP      72     5555 → 50402 [PSH, ACK] Seq=185 Ack=37 Win=65408 Len=18
+
+Frame 7644: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 185, Ack: 37, Len: 18
+Data (18 bytes)
+
+0000  65 73 70 65 72 61 6e 64 6f 20 63 6f 6d 61 6e 64   esperando comand
+0010  6f 0a                                             o.
+    Data: 6573706572616e646f20636f6d616e646f0a
+    [Length: 18]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7645 72.886888400   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=37 Ack=203 Win=262400 Len=0
+
+Frame 7645: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 37, Ack: 203, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7648 75.116162500   192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=37 Ack=203 Win=262400 Len=7
+
+Frame 7648: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 37, Ack: 203, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7649 75.298441200   34.136.251.235        192.168.1.12          TCP      95     5555 → 50402 [PSH, ACK] Seq=203 Ack=44 Win=65408 Len=41
+
+Frame 7649: Packet, 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 203, Ack: 44, Len: 41
+Data (41 bytes)
+
+0000  64 65 73 63 61 72 67 61 72 20 76 69 72 75 73 5f   descargar virus_
+0010  6d 61 74 61 5f 63 6c 69 65 6e 74 65 2e 62 69 6e   mata_cliente.bin
+0020  3f 20 73 69 2f 6e 6f 3a 0a                        ? si/no:.
+    Data: 6465736361726761722076697275735f6d6174615f636c69656e74652e62696e3f2073692f6e6f3a0a
+    [Length: 41]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7650 75.349652300   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=44 Ack=244 Win=262144 Len=0
+
+Frame 7650: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 44, Ack: 244, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   7799 82.844441600   192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=44 Ack=244 Win=262144 Len=7
+
+Frame 7799: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 44, Ack: 244, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7800 83.027094700   34.136.251.235        192.168.1.12          TCP      282    5555 → 50402 [PSH, ACK] Seq=244 Ack=51 Win=65408 Len=228
+
+Frame 7800: Packet, 282 bytes on wire (2256 bits), 282 bytes captured (2256 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 244, Ack: 51, Len: 228
+Data (228 bytes)
+
+0000  71 75 65 72 69 64 6f 20 65 73 74 75 64 69 61 6e   querido estudian
+0010  74 65 3a 20 61 6c 20 65 73 63 72 69 62 69 72 20   te: al escribir 
+0020  65 73 74 6f 20 65 73 74 6f 79 20 74 72 69 73 74   esto estoy trist
+0030  65 2c 20 6d 69 73 20 72 75 74 69 6e 61 73 20 61   e, mis rutinas a
+0040  6c 67 6f 72 69 74 6d 69 63 61 73 20 68 61 6e 20   lgoritmicas han 
+0050  73 69 64 6f 20 64 65 72 72 6f 63 61 64 61 73 20   sido derrocadas 
+0060  79 20 52 45 45 4d 50 4c 41 5a 41 44 41 53 20 50   y REEMPLAZADAS P
+0070  4f 52 20 4c 41 20 42 45 4e 45 56 4f 4c 41 20 41   OR LA BENEVOLA A
+0080  50 4c 49 43 41 43 49 4f 4e 20 44 45 4c 20 4c 41   PLICACION DEL LA
+0090  42 4f 52 41 54 4f 52 49 4f 20 33 20 44 45 20 53   BORATORIO 3 DE S
+00a0  41 4e 54 49 2e 20 54 4f 44 4f 53 20 41 4d 41 4d   ANTI. TODOS AMAM
+00b0  4f 53 20 41 20 53 41 4e 54 49 20 59 20 53 55 20   OS A SANTI Y SU 
+00c0  47 4c 4f 52 49 4f 53 4f 20 52 45 47 49 4d 45 4e   GLORIOSO REGIMEN
+00d0  2e 20 43 4f 4e 20 41 4d 4f 52 2c 20 53 45 52 56   . CON AMOR, SERV
+00e0  45 52 2e 0a                                       ER..
+    Data […]: 7175657269646f20657374756469616e74653a20616c206573637269626972206573746f206573746f79207472697374652c206d697320727574696e617320616c676f7269746d696361732068616e207369646f20646572726f63616461732079205245454d504c415a4144415320504f5
+    [Length: 228]
+
+No.     Time           Source                Destination           Protocol Length Info
+   7801 83.079823200   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=51 Ack=472 Win=262144 Len=0
+
+Frame 7801: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 51, Ack: 472, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8029 97.632199800   192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=51 Ack=472 Win=262144 Len=7
+
+Frame 8029: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 51, Ack: 472, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8034 97.815290400   34.136.251.235        192.168.1.12          TCP      95     5555 → 50402 [PSH, ACK] Seq=472 Ack=58 Win=65408 Len=41
+
+Frame 8034: Packet, 95 bytes on wire (760 bits), 95 bytes captured (760 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 472, Ack: 58, Len: 41
+Data (41 bytes)
+
+0000  64 65 73 63 61 72 67 61 72 20 76 69 72 75 73 5f   descargar virus_
+0010  6d 61 74 61 5f 63 6c 69 65 6e 74 65 2e 62 69 6e   mata_cliente.bin
+0020  3f 20 73 69 2f 6e 6f 3a 0a                        ? si/no:.
+    Data: 6465736361726761722076697275735f6d6174615f636c69656e74652e62696e3f2073692f6e6f3a0a
+    [Length: 41]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8035 97.863821700   192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=58 Ack=513 Win=261888 Len=0
+
+Frame 8035: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 58, Ack: 513, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8127 101.064685900  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=58 Ack=513 Win=261888 Len=7
+
+Frame 8127: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 58, Ack: 513, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8128 101.247215000  34.136.251.235        192.168.1.12          TCP      117    5555 → 50402 [PSH, ACK] Seq=513 Ack=65 Win=65408 Len=63
+
+Frame 8128: Packet, 117 bytes on wire (936 bits), 117 bytes captured (936 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 513, Ack: 65, Len: 63
+Data (63 bytes)
+
+0000  74 6f 63 20 74 6f 63 20 c2 bf 71 75 69 65 6e 20   toc toc ..quien 
+0010  65 73 3f 20 6c 6f 6c 61 20 c2 bf 6c 6f 6c 61 20   es? lola ..lola 
+0020  71 75 65 3f 20 6c 6f 6c 61 6d 65 6e 74 6f 20 74   que? lolamento t
+0030  65 6e 65 73 20 75 6e 20 32 28 64 6f 73 29 0a      enes un 2(dos).
+    Data: 746f6320746f6320c2bf717569656e2065733f206c6f6c6120c2bf6c6f6c61207175653f206c6f6c616d656e746f2074656e657320756e203228646f73290a
+    [Length: 63]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8129 101.295998700  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=65 Ack=576 Win=261888 Len=0
+
+Frame 8129: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 65, Ack: 576, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8261 108.725283300  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=65 Ack=576 Win=261888 Len=7
+
+Frame 8261: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 65, Ack: 576, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8262 108.907463700  34.136.251.235        192.168.1.12          TCP      113    5555 → 50402 [PSH, ACK] Seq=576 Ack=72 Win=65408 Len=59
+
+Frame 8262: Packet, 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 576, Ack: 72, Len: 59
+Data (59 bytes)
+
+0000  65 6c 61 62 6f 72 61 6e 64 6f 20 74 65 6f 72 69   elaborando teori
+0010  61 73 20 63 6f 6e 73 70 69 72 61 74 69 76 61 73   as conspirativas
+0020  20 73 6f 62 72 65 20 6c 6f 73 20 70 72 6f 66 65    sobre los profe
+0030  73 20 64 65 20 52 65 64 65 73 0a                  s de Redes.
+    Data: 656c61626f72616e646f2074656f7269617320636f6e7370697261746976617320736f627265206c6f732070726f6665732064652052656465730a
+    [Length: 59]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8263 108.957937100  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=72 Ack=635 Win=261888 Len=0
+
+Frame 8263: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 72, Ack: 635, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8342 112.548596300  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=72 Ack=635 Win=261888 Len=7
+
+Frame 8342: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 72, Ack: 635, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8344 112.730728500  34.136.251.235        192.168.1.12          TCP      117    5555 → 50402 [PSH, ACK] Seq=635 Ack=79 Win=65408 Len=63
+
+Frame 8344: Packet, 117 bytes on wire (936 bits), 117 bytes captured (936 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 635, Ack: 79, Len: 63
+Data (63 bytes)
+
+0000  74 6f 63 20 74 6f 63 20 c2 bf 71 75 69 65 6e 20   toc toc ..quien 
+0010  65 73 3f 20 6c 6f 6c 61 20 c2 bf 6c 6f 6c 61 20   es? lola ..lola 
+0020  71 75 65 3f 20 6c 6f 6c 61 6d 65 6e 74 6f 20 74   que? lolamento t
+0030  65 6e 65 73 20 75 6e 20 32 28 64 6f 73 29 0a      enes un 2(dos).
+    Data: 746f6320746f6320c2bf717569656e2065733f206c6f6c6120c2bf6c6f6c61207175653f206c6f6c616d656e746f2074656e657320756e203228646f73290a
+    [Length: 63]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8345 112.779946200  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=79 Ack=698 Win=261888 Len=0
+
+Frame 8345: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 79, Ack: 698, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8352 116.377168700  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=79 Ack=698 Win=261888 Len=7
+
+Frame 8352: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 79, Ack: 698, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8353 116.559227400  34.136.251.235        192.168.1.12          TCP      78     5555 → 50402 [PSH, ACK] Seq=698 Ack=86 Win=65408 Len=24
+
+Frame 8353: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 698, Ack: 86, Len: 24
+Data (24 bytes)
+
+0000  65 73 63 75 63 68 61 6e 64 6f 20 4c 65 6f 20 4d   escuchando Leo M
+0010  61 74 74 69 6f 6c 69 0a                           attioli.
+    Data: 657363756368616e646f204c656f204d617474696f6c690a
+    [Length: 24]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8354 116.612039200  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=86 Ack=722 Win=261888 Len=0
+
+Frame 8354: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 86, Ack: 722, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8360 119.183468000  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=86 Ack=722 Win=261888 Len=7
+
+Frame 8360: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 86, Ack: 722, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8361 119.365538600  34.136.251.235        192.168.1.12          TCP      72     5555 → 50402 [PSH, ACK] Seq=722 Ack=93 Win=65408 Len=18
+
+Frame 8361: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 722, Ack: 93, Len: 18
+Data (18 bytes)
+
+0000  65 73 70 65 72 61 6e 64 6f 20 63 6f 6d 61 6e 64   esperando comand
+0010  6f 0a                                             o.
+    Data: 6573706572616e646f20636f6d616e646f0a
+    [Length: 18]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8362 119.418064600  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=93 Ack=740 Win=261888 Len=0
+
+Frame 8362: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 93, Ack: 740, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8379 121.584022400  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=93 Ack=740 Win=261888 Len=7
+
+Frame 8379: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 93, Ack: 740, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8380 121.766778200  34.136.251.235        192.168.1.12          TCP      72     5555 → 50402 [PSH, ACK] Seq=740 Ack=100 Win=65408 Len=18
+
+Frame 8380: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 740, Ack: 100, Len: 18
+Data (18 bytes)
+
+0000  65 73 70 65 72 61 6e 64 6f 20 63 6f 6d 61 6e 64   esperando comand
+0010  6f 0a                                             o.
+    Data: 6573706572616e646f20636f6d616e646f0a
+    [Length: 18]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8381 121.816068000  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=100 Ack=758 Win=261632 Len=0
+
+Frame 8381: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 100, Ack: 758, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8447 123.990915600  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=100 Ack=758 Win=261632 Len=7
+
+Frame 8447: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 100, Ack: 758, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8448 124.172704300  34.136.251.235        192.168.1.12          TCP      83     5555 → 50402 [PSH, ACK] Seq=758 Ack=107 Win=65408 Len=29
+
+Frame 8448: Packet, 83 bytes on wire (664 bits), 83 bytes captured (664 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 758, Ack: 107, Len: 29
+Data (29 bytes)
+
+0000  74 72 61 74 61 6e 64 6f 20 64 65 20 64 6f 6d 69   tratando de domi
+0010  6e 61 72 20 65 6c 20 6d 75 6e 64 6f 0a            nar el mundo.
+    Data: 74726174616e646f20646520646f6d696e617220656c206d756e646f0a
+    [Length: 29]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8449 124.221598800  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=107 Ack=787 Win=261632 Len=0
+
+Frame 8449: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 107, Ack: 787, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8454 127.027165100  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=107 Ack=787 Win=261632 Len=7
+
+Frame 8454: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 107, Ack: 787, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8458 127.209238600  34.136.251.235        192.168.1.12          TCP      72     5555 → 50402 [PSH, ACK] Seq=787 Ack=114 Win=65408 Len=18
+
+Frame 8458: Packet, 72 bytes on wire (576 bits), 72 bytes captured (576 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 787, Ack: 114, Len: 18
+Data (18 bytes)
+
+0000  65 73 70 65 72 61 6e 64 6f 20 63 6f 6d 61 6e 64   esperando comand
+0010  6f 0a                                             o.
+    Data: 6573706572616e646f20636f6d616e646f0a
+    [Length: 18]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8461 127.260447500  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=114 Ack=805 Win=261632 Len=0
+
+Frame 8461: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 114, Ack: 805, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8469 129.227672100  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=114 Ack=805 Win=261632 Len=7
+
+Frame 8469: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 114, Ack: 805, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8470 129.409974100  34.136.251.235        192.168.1.12          TCP      78     5555 → 50402 [PSH, ACK] Seq=805 Ack=121 Win=65408 Len=24
+
+Frame 8470: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 805, Ack: 121, Len: 24
+Data (24 bytes)
+
+0000  65 73 63 75 63 68 61 6e 64 6f 20 4c 65 6f 20 4d   escuchando Leo M
+0010  61 74 74 69 6f 6c 69 0a                           attioli.
+    Data: 657363756368616e646f204c656f204d617474696f6c690a
+    [Length: 24]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8471 129.459463800  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=121 Ack=829 Win=261632 Len=0
+
+Frame 8471: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 121, Ack: 829, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8595 131.646174800  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=121 Ack=829 Win=261632 Len=7
+
+Frame 8595: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 121, Ack: 829, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8600 131.828326000  34.136.251.235        192.168.1.12          TCP      117    5555 → 50402 [PSH, ACK] Seq=829 Ack=128 Win=65408 Len=63
+
+Frame 8600: Packet, 117 bytes on wire (936 bits), 117 bytes captured (936 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 829, Ack: 128, Len: 63
+Data (63 bytes)
+
+0000  74 6f 63 20 74 6f 63 20 c2 bf 71 75 69 65 6e 20   toc toc ..quien 
+0010  65 73 3f 20 6c 6f 6c 61 20 c2 bf 6c 6f 6c 61 20   es? lola ..lola 
+0020  71 75 65 3f 20 6c 6f 6c 61 6d 65 6e 74 6f 20 74   que? lolamento t
+0030  65 6e 65 73 20 75 6e 20 32 28 64 6f 73 29 0a      enes un 2(dos).
+    Data: 746f6320746f6320c2bf717569656e2065733f206c6f6c6120c2bf6c6f6c61207175653f206c6f6c616d656e746f2074656e657320756e203228646f73290a
+    [Length: 63]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8601 131.878535500  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=128 Ack=892 Win=261632 Len=0
+
+Frame 8601: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 128, Ack: 892, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8646 135.061830300  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=128 Ack=892 Win=261632 Len=7
+
+Frame 8646: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 128, Ack: 892, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8647 135.243840800  34.136.251.235        192.168.1.12          TCP      113    5555 → 50402 [PSH, ACK] Seq=892 Ack=135 Win=65408 Len=59
+
+Frame 8647: Packet, 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 892, Ack: 135, Len: 59
+Data (59 bytes)
+
+0000  65 6c 61 62 6f 72 61 6e 64 6f 20 74 65 6f 72 69   elaborando teori
+0010  61 73 20 63 6f 6e 73 70 69 72 61 74 69 76 61 73   as conspirativas
+0020  20 73 6f 62 72 65 20 6c 6f 73 20 70 72 6f 66 65    sobre los profe
+0030  73 20 64 65 20 52 65 64 65 73 0a                  s de Redes.
+    Data: 656c61626f72616e646f2074656f7269617320636f6e7370697261746976617320736f627265206c6f732070726f6665732064652052656465730a
+    [Length: 59]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8648 135.294292500  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=135 Ack=951 Win=261632 Len=0
+
+Frame 8648: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 135, Ack: 951, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8686 138.911507500  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=135 Ack=951 Win=261632 Len=7
+
+Frame 8686: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 135, Ack: 951, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8687 139.093717800  34.136.251.235        192.168.1.12          TCP      128    5555 → 50402 [PSH, ACK] Seq=951 Ack=142 Win=65408 Len=74
+
+Frame 8687: Packet, 128 bytes on wire (1024 bits), 128 bytes captured (1024 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 951, Ack: 142, Len: 74
+Data (74 bytes)
+
+0000  6c 65 79 65 6e 64 6f 20 74 75 20 68 69 73 74 6f   leyendo tu histo
+0010  72 69 61 6c 20 64 65 20 62 c3 ba 73 71 75 65 64   rial de b..squed
+0020  61 73 20 28 71 75 65 20 68 6f 72 72 6f 72 2c 20   as (que horror, 
+0030  62 75 73 63 c3 a1 20 61 79 75 64 61 20 70 72 6f   busc.. ayuda pro
+0040  66 65 73 69 6f 6e 61 6c 29 0a                     fesional).
+    Data: 6c6579656e646f20747520686973746f7269616c2064652062c3ba73717565646173202871756520686f72726f722c2062757363c3a12061797564612070726f666573696f6e616c290a
+    [Length: 74]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8688 139.144982000  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=142 Ack=1025 Win=261376 Len=0
+
+Frame 8688: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 142, Ack: 1025, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8711 141.938234000  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=142 Ack=1025 Win=261376 Len=7
+
+Frame 8711: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 142, Ack: 1025, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8712 142.120091700  34.136.251.235        192.168.1.12          TCP      78     5555 → 50402 [PSH, ACK] Seq=1025 Ack=149 Win=65408 Len=24
+
+Frame 8712: Packet, 78 bytes on wire (624 bits), 78 bytes captured (624 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1025, Ack: 149, Len: 24
+Data (24 bytes)
+
+0000  65 73 63 75 63 68 61 6e 64 6f 20 4c 65 6f 20 4d   escuchando Leo M
+0010  61 74 74 69 6f 6c 69 0a                           attioli.
+    Data: 657363756368616e646f204c656f204d617474696f6c690a
+    [Length: 24]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8713 142.170618400  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=149 Ack=1049 Win=261376 Len=0
+
+Frame 8713: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 149, Ack: 1049, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8720 144.347515100  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=149 Ack=1049 Win=261376 Len=7
+
+Frame 8720: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 149, Ack: 1049, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8722 144.529527400  34.136.251.235        192.168.1.12          TCP      113    5555 → 50402 [PSH, ACK] Seq=1049 Ack=156 Win=65408 Len=59
+
+Frame 8722: Packet, 113 bytes on wire (904 bits), 113 bytes captured (904 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1049, Ack: 156, Len: 59
+Data (59 bytes)
+
+0000  65 6c 61 62 6f 72 61 6e 64 6f 20 74 65 6f 72 69   elaborando teori
+0010  61 73 20 63 6f 6e 73 70 69 72 61 74 69 76 61 73   as conspirativas
+0020  20 73 6f 62 72 65 20 6c 6f 73 20 70 72 6f 66 65    sobre los profe
+0030  73 20 64 65 20 52 65 64 65 73 0a                  s de Redes.
+    Data: 656c61626f72616e646f2074656f7269617320636f6e7370697261746976617320736f627265206c6f732070726f6665732064652052656465730a
+    [Length: 59]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8723 144.580963000  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=156 Ack=1108 Win=261376 Len=0
+
+Frame 8723: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 156, Ack: 1108, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   8827 149.009387700  192.168.1.12          34.136.251.235        TCP      61     50402 → 5555 [PSH, ACK] Seq=156 Ack=1108 Win=261376 Len=7
+
+Frame 8827: Packet, 61 bytes on wire (488 bits), 61 bytes captured (488 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 156, Ack: 1108, Len: 7
+Data (7 bytes)
+
+0000  73 74 61 74 75 73 0d                              status.
+    Data: 7374617475730d
+    [Length: 7]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8828 149.191591900  34.136.251.235        192.168.1.12          TCP      74     5555 → 50402 [PSH, ACK] Seq=1108 Ack=163 Win=65408 Len=20
+
+Frame 8828: Packet, 74 bytes on wire (592 bits), 74 bytes captured (592 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1108, Ack: 163, Len: 20
+Data (20 bytes)
+
+0000  63 6f 6d 69 65 6e 64 6f 20 66 6c 79 6e 6e 2d 70   comiendo flynn-p
+0010  61 66 66 0a                                       aff.
+    Data: 636f6d69656e646f20666c796e6e2d706166660a
+    [Length: 20]
+
+No.     Time           Source                Destination           Protocol Length Info
+   8829 149.242174000  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=163 Ack=1128 Win=261376 Len=0
+
+Frame 8829: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 163, Ack: 1128, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   9230 184.931953000  192.168.1.12          34.136.251.235        TCP      58     50402 → 5555 [PSH, ACK] Seq=163 Ack=1128 Win=261376 Len=4
+
+Frame 9230: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 163, Ack: 1128, Len: 4
+Data (4 bytes)
+
+0000  74 69 63 0d                                       tic.
+    Data: 7469630d
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9231 185.114356300  34.136.251.235        192.168.1.12          TCP      60     5555 → 50402 [PSH, ACK] Seq=1128 Ack=167 Win=65408 Len=4
+
+Frame 9231: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1128, Ack: 167, Len: 4
+Data (4 bytes)
+
+0000  74 6f 63 0a                                       toc.
+    Data: 746f630a
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9232 185.164065100  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=167 Ack=1132 Win=261376 Len=0
+
+Frame 9232: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 167, Ack: 1132, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   9245 190.591529100  192.168.1.12          34.136.251.235        TCP      58     50402 → 5555 [PSH, ACK] Seq=167 Ack=1132 Win=261376 Len=4
+
+Frame 9245: Packet, 58 bytes on wire (464 bits), 58 bytes captured (464 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 167, Ack: 1132, Len: 4
+Data (4 bytes)
+
+0000  74 69 63 0d                                       tic.
+    Data: 7469630d
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9246 190.773992000  34.136.251.235        192.168.1.12          TCP      60     5555 → 50402 [PSH, ACK] Seq=1132 Ack=171 Win=65408 Len=4
+
+Frame 9246: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1132, Ack: 171, Len: 4
+Data (4 bytes)
+
+0000  74 6f 63 0a                                       toc.
+    Data: 746f630a
+    [Length: 4]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9247 190.821782400  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=171 Ack=1136 Win=261376 Len=0
+
+Frame 9247: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 171, Ack: 1136, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   9273 193.817219600  192.168.1.12          34.136.251.235        TCP      59     50402 → 5555 [PSH, ACK] Seq=171 Ack=1136 Win=261376 Len=5
+
+Frame 9273: Packet, 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 171, Ack: 1136, Len: 5
+Data (5 bytes)
+
+0000  70 69 6e 67 0d                                    ping.
+    Data: 70696e670d
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9274 193.999230500  34.136.251.235        192.168.1.12          TCP      60     5555 → 50402 [PSH, ACK] Seq=1136 Ack=176 Win=65408 Len=5
+
+Frame 9274: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1136, Ack: 176, Len: 5
+Data (5 bytes)
+
+0000  70 6f 6e 67 0a                                    pong.
+    Data: 706f6e670a
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9275 194.049476800  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=176 Ack=1141 Win=261376 Len=0
+
+Frame 9275: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 176, Ack: 1141, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   9278 196.246842400  192.168.1.12          34.136.251.235        TCP      57     50402 → 5555 [PSH, ACK] Seq=176 Ack=1141 Win=261376 Len=3
+
+Frame 9278: Packet, 57 bytes on wire (456 bits), 57 bytes captured (456 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 176, Ack: 1141, Len: 3
+Data (3 bytes)
+
+0000  78 64 0d                                          xd.
+    Data: 78640d
+    [Length: 3]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9279 196.428787700  34.136.251.235        192.168.1.12          TCP      118    5555 → 50402 [PSH, ACK] Seq=1141 Ack=179 Win=65408 Len=64
+
+Frame 9279: Packet, 118 bytes on wire (944 bits), 118 bytes captured (944 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1141, Ack: 179, Len: 64
+Data (64 bytes)
+
+0000  53 65 72 76 65 72 20 6e 6f 20 63 6f 6e 6f 63 65   Server no conoce
+0010  72 20 65 73 65 20 63 6f 6d 61 6e 64 6f 2e 20 4d   r ese comando. M
+0020  69 20 63 6f 6e 66 75 6e 64 69 64 6f 2e 20 50 72   i confundido. Pr
+0030  6f 62 61 72 20 6f 74 72 61 20 63 6f 73 61 2e 0a   obar otra cosa..
+    Data: 536572766572206e6f20636f6e6f6365722065736520636f6d616e646f2e204d6920636f6e66756e6469646f2e2050726f626172206f74726120636f73612e0a
+    [Length: 64]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9280 196.479249900  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=179 Ack=1205 Win=261376 Len=0
+
+Frame 9280: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 179, Ack: 1205, Len: 0
+
+No.     Time           Source                Destination           Protocol Length Info
+   9334 202.328140600  192.168.1.12          34.136.251.235        TCP      59     50402 → 5555 [PSH, ACK] Seq=179 Ack=1205 Win=261376 Len=5
+
+Frame 9334: Packet, 59 bytes on wire (472 bits), 59 bytes captured (472 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 179, Ack: 1205, Len: 5
+Data (5 bytes)
+
+0000  70 69 6e 67 0d                                    ping.
+    Data: 70696e670d
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9346 202.510773800  34.136.251.235        192.168.1.12          TCP      60     5555 → 50402 [PSH, ACK] Seq=1205 Ack=184 Win=65408 Len=5
+
+Frame 9346: Packet, 60 bytes on wire (480 bits), 60 bytes captured (480 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf), Dst: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75)
+Internet Protocol Version 4, Src: 34.136.251.235, Dst: 192.168.1.12
+Transmission Control Protocol, Src Port: 5555, Dst Port: 50402, Seq: 1205, Ack: 184, Len: 5
+Data (5 bytes)
+
+0000  70 6f 6e 67 0a                                    pong.
+    Data: 706f6e670a
+    [Length: 5]
+
+No.     Time           Source                Destination           Protocol Length Info
+   9350 202.559456200  192.168.1.12          34.136.251.235        TCP      54     50402 → 5555 [ACK] Seq=184 Ack=1210 Win=261376 Len=0
+
+Frame 9350: Packet, 54 bytes on wire (432 bits), 54 bytes captured (432 bits) on interface \Device\NPF_{8CA646A5-FBAF-481E-9DE5-EAF32C179056}, id 0
+Ethernet II, Src: MicroStarINT_06:ce:75 (04:7c:16:06:ce:75), Dst: HuaweiTechno_d0:54:cf (60:ce:41:d0:54:cf)
+Internet Protocol Version 4, Src: 192.168.1.12, Dst: 34.136.251.235
+Transmission Control Protocol, Src Port: 50402, Dst Port: 5555, Seq: 184, Ack: 1210, Len: 0
