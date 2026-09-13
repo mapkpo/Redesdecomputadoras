@@ -400,61 +400,63 @@ plt.show()
 
 4.1 
 
-Calculamos cuantos disquetes transporta el avion. El avion transporta 10.000 kg de disquetes y cada disquete pesa 0,03 kg entonces si hacemos la division 10000/0.03 = 333.333,33 disquetes.
+Calculamos cuantos disquetes transporta el avion. El avion transporta 10.000 kg de disquetes y cada disquete pesa 0,03 kg entonces si hacemos la division $10000/0.03 = 333.333,33$ disquetes.
 
-sabemos que cada disquete transportan 1.4 Mbytes de datos, entonces la cantidad total de datos que transporta el avion es 1.4 Mbytes x 333.333,33 = 466.666,67 MB.
+sabemos que cada disquete transportan 1.4 Mbytes de datos, entonces la cantidad total de datos que transporta el avion es $1.4 Mbytes \times 333.333,33 = 466.666,67 MB$.
 
 nos piden la velocidad en bits, asi que calculamos los bits multiplicando por 1 000 000 y luego x 8 = 3,733 ×10^12 bits.
 
 ahora calculamos el tiempo del viaje, 5.0000 km a 1000km/h es igual a 5 horas o 18.000 segundos. entonces la velocidad de transmision seran los datos/tiempo:
 
-3,733 ×10^12 bits / 18.000 seg = 2,07×10^8 bits/seg.
+$3,733 ×10^12 bits / 18.000 seg = 2,07×10^8 bits/seg$
 
 
 4.2
 
 La formula de dB para perdida/ganancia es:
 
-dB= 10 log10 (P salida / P entrada)
+$$
+dB= 10 log_{10} (P_{salida} / P_{entrada})
+$$
 
 si tenemos una perdida de 20 dB y la potencia de la señal de entrada es de 0.5 W
 
--20 = 10 log10 (P salida / 0.5)
+$-20 = 10 log_{10} (P_{salida} / 0.5)$
 
-log10 (P salida / 0.5 )= -2 
+$log_{10} (P_{salida} / 0.5 )= -2$ 
 
-P salida = 0.005 W o 5000 uW.
+$P_{salida} = 0.005 W o 5000 uW$
 
 ahora con estos datos calculamos la relacion señal ruido en la salida:
 
-S/N = 5000 uW / 4,5 uW = 1.111,1
+$S/N = 5000 uW / 4,5 uW = 1.111,1$
 
 y por ultimo convertimos a dB.
 
-10 log10 (1.111,1) = 30,46 dB.
+$10 log_{10} (1.111,1) = 30,46 dB$
 
 
 4.3
 
 Dada la fuente de 100 W y la potencia a recibir de 1 W, la perdida maxima seria:
 
-dB = 10 log10 (100/1) = 20 dB.
+$dB = 10 log_{10} (100/1) = 20 dB$
 
 ahora usamos las tablas empiricas de cada uno de los medios para obtener la atenuacion de cada medio:
 
-a) par trenzado a 300khz = 13 db/ km.
-b) par trenzado a 1 Mhz = 20 db/km.
-c) cable coaxial a 1 Mhz = 2,5 db/km. 
-d) cable coaxial a 25 Mhz = 10 db/km.
-e) fibra optica a frecuencia ideal = 0.2 db/km.
+a) par trenzado a 300khz = $13 db/ km$
+b) par trenzado a 1 Mhz = $20 db/km$
+c) cable coaxial a 1 Mhz = $2,5 db/km$ 
+d) cable coaxial a 25 Mhz = $10 db/km$
+e) fibra optica a frecuencia ideal = $0.2 db/km$
 
 con estos valores puedo calcular la maxima longitud alcanzable (dB/atenuacion):
 
-a) 1,5 Km
-b) 1 Km
-c) 8 Km
-d) 2 Km
-e) 100 Km
+a) $1,5 Km$
+b) $1 Km$
+c) $8 Km$
+d) $2 Km$
+e) $100 Km$
 
 4.4
 
@@ -469,21 +471,21 @@ El conectar la malla exterior a la tierra, supone varias ventajas:
 4.5 
 Doble de freq de transmisión
 
-LdB=20log(f)+20log(d)−147,56
+$L_{dB}=20log(f)+20log(d)−147,56$
 
-LdB*= 20log(2f) + 20log(d)−147,56 = 20[log(2) + log(f)] + 20log(d)−147,56  = 20log(2) + 20log(f)+20log(d)−147,56
+$L_{dB*}= 20log(2f) + 20log(d)−147,56 = 20[log(2) + log(f)] + 20log(d)−147,56  = 20log(2) + 20log(f)+20log(d)−147,56$
 
-LdB* – LdB = 20log(2) = 6,02 dB
+$L_{dB*} – L_{dB} = 20log(2) = 6,02 dB$
 
 Doble de distancia entre antenas
 
-LdB=20log(f)+20log(d)−147,56
+$L_{dB}=20log(f)+20log(d)−147,56$
 
-LdB*= 20log(f) + 20log(2d)−147,56 = 20log(f) + 20[log(2) + log(d)]  - 147,56  = 20log(f) + 20log(2) + 20log(d)−147,56
+$L_{dB*}= 20log(f) + 20log(2d)−147,56 = 20log(f) + 20[log(2) + log(d)]  - 147,56  = 20log(f) + 20log(2) + 20log(d)−147,56$
 
-LdB* – LdB = 20log(2) = 6,02 dB
+$L_{dB*} – L_{dB} = 20log(2) = 6,02 dB$
 
-Concluimos que en ambos casos, la pérdida L aumenta 6 dB. Como L representa la relación entre la potencia transmitida y la recibida (L = 10log(Pt/Pr)), si L sube 6 dB y Pt no cambia, entonces Pr tiene que bajar.
+Concluimos que en ambos casos, la pérdida L aumenta 6 dB. Como L representa la relación entre la potencia transmitida y la recibida ($L = 10log(P_t/P_r)$), si L sube 6 dB y Pt no cambia, entonces Pr tiene que bajar.
 
 4.6
 
@@ -516,15 +518,15 @@ de 5.000 kilómetros.
 4.7 
 
 a) La longitud de una antena para enviar una señal de 300 Hz se puede calcular teniendo en cuenta la relacion entre la longitud de onda λ, la frecuencia f y la velocidad de la luz. Con esto podemos calcular la longitud de onda. 
-λ = c/f = 3*10^8/300 = 1.000.000 metros
+$λ = c/f = 3\times10^8/300 = 1.000.000 metros$
 Entonces ahora teniendo una longuitud de onda y teniendo en cuanta que nos dicen en la consina que la longitud de la antena sera equivalente a la mitad de onda. Podemos calcularla como.
-Longitud = λ/2 = 1.000.000/2 = 500.000 metros.
+$Longitud = λ/2 = 1.000.000/2 = 500.000 metros$.
 Por lo cual nuestra antena para poder transmitir señales de voz directamente seria de 500 km de largo
 
-b) Si tenemos una antena de 1 metro de longitud y queremos saber la frecuencia necesaria de la señal portadora entonces podemos usar la relacion anterior. Primero debemos calcular la longitud de onda entonces Longitud = λ/2.
-λ = 1*2 = 2 metros de longitud de onda
+b) Si tenemos una antena de 1 metro de longitud y queremos saber la frecuencia necesaria de la señal portadora entonces podemos usar la relacion anterior. Primero debemos calcular la longitud de onda entonces $Longitud = λ/2.
+λ = 1\times2 = 2 metros$ de longitud de onda
 Ahora con la longitud de onda calculamos la frecuencia de la señal. 
-λ = c/f  => f = c/λ = 3*10^8/2 = 150.000.000
+$λ = c/f  => f = c/λ = 3*10^8/2 = 150.000.000$,
 Entonces la señal portadora tendrá una frecuencia de 150Mhz
 
 4.8   
