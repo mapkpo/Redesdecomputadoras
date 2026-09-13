@@ -90,3 +90,29 @@ El four way handshake cierra la conexion en ambas direcciones:
 - <-FIN(receptor) el receptor termino de enviar sus datos pendientes y cierra su propia conexion
 - ->ACK(receptor) el iniciador reconoce el cierre
 
+
+## 4C)
+En wireshark usando la regla de mascara "tcp.port == 5555 || udp.port == 5555" podemos capturar la informacion de transmision con el server del profe.
+<img width="2746" height="703" alt="image" src="https://github.com/user-attachments/assets/6b9f0be6-7601-4f3e-b38f-e552b86365e7" />
+
+La misma se puede exportar para ver la información: 
+<img width="1253" height="993" alt="image" src="https://github.com/user-attachments/assets/ce276feb-937c-4c1f-8950-357f468dd324" />
+
+Las respuestas obtenidas fueron:
+hi -> Server no conocer ese comando. Mi confundido. Probar otra cosa.
+hola -> hola :)
+ping -> pong
+tic -> toc
+status -> esperando comando
+status -> elaborando teorias conspirativas sobre los profes de Redes
+status -> toc toc ¿quien es? lola ¿lola que? lolamento tenes un 2(dos)
+status -> escuchando Leo Mattioli
+status -> aburrido
+status -> descargar virus_mata_cliente.bin? si/no:
+status -> querido estudiante: al escribir esto estoy triste, mis rutinas algoritmicas han sido derrocadas y REEMPLAZADAS POR LA BENEVOLA APLICACION DEL LABORATORIO 3 DE SANTI. TODOS AMAMOS A SANTI Y SU GLORIOSO REGIMEN. CON AMOR, SERVER.
+status -> leyendo tu historial de búsquedas (que horror, buscá ayuda profesional)
+
+
+
+
+
