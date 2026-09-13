@@ -112,6 +112,10 @@ status -> descargar virus_mata_cliente.bin? si/no:
 status -> querido estudiante: al escribir esto estoy triste, mis rutinas algoritmicas han sido derrocadas y REEMPLAZADAS POR LA BENEVOLA APLICACION DEL LABORATORIO 3 DE SANTI. TODOS AMAMOS A SANTI Y SU GLORIOSO REGIMEN. CON AMOR, SERVER.
 status -> leyendo tu historial de búsquedas (que horror, buscá ayuda profesional)
 
+y sobre nuestro grupo para completar el rick roll:
+
+#hiddenSSID -> ht
+
 
 
 
