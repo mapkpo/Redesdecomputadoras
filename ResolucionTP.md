@@ -44,13 +44,13 @@ Transmission Control Protocol, Src Port: 49989, Dst Port: 443, Seq: 2714, Ack: 4
 ```
 
 ## 2A) 
-Origen: b4:2e:99:8c:69:ef (Puerto ethernet del PC utilizando wireshark) Destino: b8:66:85:fd:8c:7a (Direccion del gateway/router)
+Origen: b4:2e:99:8c:69:ef (Puerto ethernet del PC utilizando wireshark) Destino: b8:66:85:fd:8c:7a (Dirección del gateway/router)
 
 ## 2B) 
 IP origen: 192.168.0.59 (direccion de la LAN de la PC utilizando wireshak) IP destino: 142.251.150.119 (IP publica del servidor con la pagina web)
 
 ## 2C) 
-Las direcciones de origen conciden al mismo dispositivo dentro de la red local, ya que tienen una asignacion dhcp relacionandolas. Pero las direcciones de destino no representan el mismo dispositivo, esto se debe a que el ultimo dispositivo accesible en la red local en camino al destino es el router. Por lo tanto la trama ethernet se resuelve ahi. En el camino al destino se generan multiples tramas a menos que el destino sea accessible por Layer 2 estando en la misma subred conectado posiblemente por switches, en cual caso las direcciones ip y mac del destino representaran el mismo dispositivo.
+Las direcciones de origen conciden al mismo dispositivo dentro de la red local, ya que tienen una asignación dhcp relacionándolas. Pero las direcciones de destino no representan el mismo dispositivo, esto se debe a que el ultimo dispositivo accesible en la red local en camino al destino es el router. Por lo tanto la trama ethernet se resuelve ahí. En el camino al destino se generan múltiples tramas a menos que el destino sea accesible por Layer 2 estando en la misma subred conectado posiblemente por switches, en cual caso las direcciones ip y mac del destino representaran el mismo dispositivo.
 
 ## 2D)
  el ethertype es ipv4 ya que este es el utilizado por defecto en acceder a google.com
@@ -58,18 +58,18 @@ Las direcciones de origen conciden al mismo dispositivo dentro de la red local, 
 # 3 Protocolo de Transporte TCP
 
 ## 3A) 
-El protocolo tcp resuelve multiples aspectos de la comunicacion:
+El protocolo tcp resuelve múltiples aspectos de la comunicación:
 - Detecta la perdida de paquetes (Ethernet y IP no garantizan que se recibio un paquete)
 - Comunica el orden de los paquetes
 - Controla la velocidad para no saturar la red o el receptor
-- Utiliza multiples "puertos" para representar a que aplicacion entregar el paquete
+- Utiliza múltiples "puertos" para representar a que aplicación entregar el paquete
 
 ## 3B)
-- Puerto de origen y destino: identifican que aplicaciones participan en la comunicacion
-- Numero de secuencia: representa la posicion de los datos dentro del flujo total de la sesion, para ordenarlos en una comunicacion mas larga aunque lleguen desordenados
-- Numero de ACKnowledgment: indica el numero de secuencia del proximo paquete, permite detectar paquetes perdidos
+- Puerto de origen y destino: identifican que aplicaciones participan en la comunicación
+- Numero de secuencia: representa la posición de los datos dentro del flujo total de la sesión, para ordenarlos en una comunicación mas larga aunque lleguen desordenados
+- Numero de ACKnowledgment: indica el numero de secuencia del próximo paquete, permite detectar paquetes perdidos
 - Longitud de cabecera: indica el largo de la cabecera para saber cuando comienzan los datos reales
-- CRC: permite detectar si el paquete sufrio corrupcion durante la transmision
+- CRC: permite detectar si el paquete sufrió corrupción durante la transmisión
 - Puntero Urgente: comunica que el contenido del segmento debe saltarse la cola de espera para resolverse antes
 
 ## 3C) 
@@ -77,9 +77,9 @@ El protocolo tcp resuelve multiples aspectos de la comunicacion:
 Para explicar los handshakes se utiliza el nombre de iniciador para el dispositivo que manda el primer paquete del handshake y receptor para su contraparte, de la forma
 iniciador -> receptor
 
-El 3 way handshake inicia una conexion:
-- ->SYN solicita la apertura de una conexion y comunica la numeracion de los bytes que enviara en iniciador
-- <-SYN-ACK Confirma que recibio el SYN y abre la conexion en sentido opuesto desde el receptor al iniciador
+El 3 way handshake inicia una conexión:
+- ->SYN solicita la apertura de una conexión y comunica la numeración de los bytes que enviara en iniciador
+- <-SYN-ACK Confirma que recibió el SYN y abre la conexion en sentido opuesto desde el receptor al iniciador
 - ->ACK se confirma la conexion del paso 2(el iniciador confirma la conexion desde el receptor)
 
 Luego de esto ambos quedan como ESTABLISHED y la transmision puede comenzar
