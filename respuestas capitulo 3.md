@@ -148,11 +148,14 @@ Si transmiten al mismo tiempo provocaría una interferencia destructiva, por eso
 
 >B.
 
-3.2 con una frecuencia fundamental de 1000Hz 1/1000hz = 1ms
+3.2 con una frecuencia fundamental de 1000Hz 
+
+1/1000hz = 1ms
 
 3.3
->A. sen(2π F t - π)*2 experiencian interferencia constructiva
->B. difieren en 180° por lo tanto = 0 experimentan interferencia destructiva
+A. sen(2π F t - π)*2 experiencian interferencia constructiva
+
+B. difieren en 180° por lo tanto = 0 experimentan interferencia destructiva
 
 3.4  Pensando en frecuencias relativas podemos ver que un salto de 1 octava duplica la frecuencia. Notas mas altas tienen frecuencias mayores mientras que sus longitudes de onda se vuelven menores. Tambien podemos destacar que la longitud de onda del MI es de 1m aproximadamente. Un MI una octava mayor tendrá una longitud de onda de 0.5m
 
