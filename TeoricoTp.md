@@ -194,6 +194,39 @@ La solucion a esto es usar LAN de menor coste y capacidad por edificio o departa
 la topologia describe el patron geometrico y logico de interconexion entre las estaciones de la red, se describen 4 topologias LAN principales: Bus, arbol, anillo y estrella.
 
 
+15.5 El proposito del comite es desarrollar estandares de redes LAN y WAN enfocados en aspectos de la capa fisica y enlace de datos para mantener redes interoperables. Son responsables por las principales tecnologias de conexion en redes como Ethernet, WiFi, vLAN, STP, etc.
+
+15.6 Las diferentes normativas para las redes lan existen para acomodar requisitos diferentes en implementacion. Las normativas tratan de mantener interoperabilidad para un estandar pero mantienen estandares diferentes de medios fisicos, velocidades o tecnologia de transmision. Esta versatilidad permite tener dispositivos moviles(los cuales no pueden cablearse comodamente) y dispositivos fijos en una misma red utilizando dispositivos que utilizen dos o mas tecnologias para interoperar en estas normativas.
+
+15.7 La subcapa LLC proporciona 3 tipos de servicios:
+- servicio no orientado a conexion sin confirmacion: Este no garantiza la recepcion de datos, dejando esa tarea a capas superiores. Util cuando manterner una conexion es demasiado caro computacionalmente o cuando una capa superior ya implementa deteccion de errores/perdida de paquetes
+- servicio en modo conexion: los dos "usuarios" forman una conexion por la cual intercambian datos, en esta existe el control de flujo y deteccion de errores. Util cuando la implementacion de software de las capas superiores es muy simple, LLC reduce la necesidad de implementar los mecanismos que ya provee
+- servicio no orientado a conexion con confirmacion: no existe conexion previa pero el receptor confirma recibir los datagramas. Util cuando hay demasiados dispositivos no centrales para mantener conexiones activas pero se requiere confirmacion de recepcion de datagramas
+
+15.8 Los tres tipos de operacion son:
+- operacion de tipo 1: presta el servicio no orientado a conexion sin confirmacion utilizando la Pdu de informacion no numerada
+- operacion de tipo 2: presta el servicio en modo conexion utilizando el modo de operacion balanceado asincrono de HDLC(unicamente)
+- operacion de tipo 3: presta el servicio no orientado a conexion confirmado con dos PDU, una de orden y una de respuesta para confirmar que la anterior fue recibida
+
+15.9 En la capa mac se realizan las siguientes funciones:
+- control de accesso al medio
+- deteccion de errores mediante CRC
+- control de tamaño y formato de tramas
+- direccionamiento fisico(mediante direcciones de origen y destino)
+
+15.10 Un puente se encarga de connectar redes LAN similares. Estos realizan dos funciones en ambas direcciones entre dos redes lan:
+- Lectura de las tramas transmitidas en red 1 y aceptar tramas dirigidas a la red 2
+- retransmitir hacia la red 2 todas las tramas
+
+15.11 Es un algoritmo para encaminamiento entre redes, util para cuando existen caminos redundantes. Se basa en 3 aspectos:
+- retransmision de tramas
+- aprendizaje de direcciones
+- evitar bucles
+Es importante el ultimo en caso de que se emita un broadcast y no cree un bucle infinito. STP bloquea uno de los enlaces para cortar bucles y lo rehabilita en caso de que sea necesario
+
+15.12
+
+
 
 ---
 # Ejercicios
