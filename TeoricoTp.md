@@ -678,6 +678,23 @@ $$G_{dB} = 10 \log_{10}(351.86) \approx 25.46 \text{ dB}$$
 
 b) Para saber la potencia efectiva 
 
+4.15
+
+Por el teorema de pitagoras
+
+$$
+d²+r² = (r+h)²
+$$
+
+resolviendo el cuadrado del binomio y cancelando R² : $d²= 2Rh +h²$
+
+Como la altura de la antena es insignificante con respecto al radio de la tierra, entonces $d² = 2Rh$
+
+como r = 6.370km y hkm = h/1000
+
+$$
+d_{km} = \sqrt{2r_{km}h_{km}} = \sqrt{2\times6.370\times\frac{h}{1000}} = 3.57\sqrt{h_m} 
+$$
 
 
 4.16
@@ -703,4 +720,29 @@ Pero sin tomar en cuenta la refraccion(K=1), la altura de la antena quedaria:
 
 $$
 h ≈ 502m
+$$
+
+4.17
+
+RI aire = 1.0003
+
+Ri agua = 4/3
+
+$\alpha$ = 30°
+
+$\beta$ = angulo de refraccion
+
+
+
+$$
+\frac{\sin(\alpha)}{\sin(\beta)} = \frac{RI_{aire}}{RI_{agua}} = \frac{1.0003}{\frac{4}{3}} = 0,75
+$$
+
+
+$$
+\sin(\beta) = \frac{0,5}{0,75} \approx 0,66
+$$
+    
+$$
+\beta = \arcsin(0,66) \approx 41,8^\circ
 $$
