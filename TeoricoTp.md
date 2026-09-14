@@ -224,7 +224,12 @@ la topologia describe el patron geometrico y logico de interconexion entre las e
 - evitar bucles
 Es importante el ultimo en caso de que se emita un broadcast y no cree un bucle infinito. STP bloquea uno de los enlaces para cortar bucles y lo rehabilita en caso de que sea necesario
 
-15.12
+15.12 La principal diferencia entre un concentrador(hub) y un conmutador de capa 2(switch) es que el switch solo emite los paquetes entrantes a el puerto correspondiente al destinatario.
+un hub repite las tramas a todos los puertos sin entender quien debe recibirlos. Los dispositivos en un mismo hub no pueden transmitir al  mismo tiempo, ya que los paquetes colisionarian
+Ademas el hub distribuye el ancho de banda de la conexion entre los dispositivos conectados, mientras que un switch mantiene la velocidad maxima del link para cada uno.
+
+15.13 La principal diferencia es que el conmutador rapido inicia la transmision de la trama al receptor cuando aun esta recibiendo la trama del remitente, esto es posible ya que cuando recibio el inicio de la trama con la direccion mac de destino sabe a donde debe transmitir. En comparacion un conmutador de almacenamiento y envio acepta la trama y almacena su totalidad antes de retransmitirla a el puerto correspondiente.
+El conmutador rapido tiene la desventaja que no puede detectar tramas erroneas antes de retransmitirlas, ya que necesita conocer la trama entera para verificar su crc.
 
 
 
