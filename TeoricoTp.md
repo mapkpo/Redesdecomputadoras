@@ -555,6 +555,11 @@ Entonces momo M es tangente a la curva en P, su pendiente es esa derivada. Y com
 
 tan⁡(α)= pendiente de M = p/y_1 
 
+b)
+<img width="3892" height="4160" alt="WhatsApp Image 2026-09-14 at 2 23 06 PM" src="https://github.com/user-attachments/assets/c49a1495-3bf2-4cb6-9c31-3d43b5720687" />
+
+
+Por lo tanto concluimos que el ángulo de incidencia es igual al ángulo de reflexión que también es igual a α (el ángulo con la horizontal)
 
 4.12
 
