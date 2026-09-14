@@ -194,6 +194,16 @@ La solucion a esto es usar LAN de menor coste y capacidad por edificio o departa
 la topologia describe el patron geometrico y logico de interconexion entre las estaciones de la red, se describen 4 topologias LAN principales: Bus, arbol, anillo y estrella.
 
 
+15.4 Topologia en Bus y en arbol: Ambas se caracterizan por la conexión multipunto. La topologia bus todas las estaciones se encuentran conectadas directamente a traves de taps, su funcionamiento es full-duplex. En cambio la topologia en árbol, es una generalizacion de la topologia en bus, empieza desde un punto conocido conocido como raiz o cabecera, donde uno o mas cables comienzan desde ahi y cada uno puede presentar ramificaciones.
+El principal problema de este tipo de conexion es el metodo para elegir a quien pertenece la informacion transmitida, ya que la misma alcanza todas las estaciones, y de que manera regular la comunicación, ya que dos o mas pueden transmitir al mismo tiempo ocasionando distorsion.
+
+Topología en anillo: Consta de un conjunto de repetidores conectados formando un bucle cerrado. El enlace es unidireccional, los datos se transmiten en un solo sentido a través de repetidores donde los datos se transmiten en tramas, donde al llegar al destino, copia la trama y sigue su rumbo hasta llegar de nuevo a su origen.
+
+Topología en estrella: Cada estación esta conectada a un nodo central a través de dos enlaces, uno para transmisíon y otro para recepción.
+Su funcionamiento puede ser muy parecido a la topologia en bus, donde una estacion retransmite a traves de todos los enlaces de salida del nodo central.
+Otro modo de funcionamiendo es usar el nodo como un dispositivo de conmutación (switch), donde la trama entrante se almacena en el nodo temporalmente y luego se transmite hacia la estacion de destino.
+
+
 15.5 El proposito del comite es desarrollar estandares de redes LAN y WAN enfocados en aspectos de la capa fisica y enlace de datos para mantener redes interoperables. Son responsables por las principales tecnologias de conexion en redes como Ethernet, WiFi, vLAN, STP, etc.
 
 15.6 Las diferentes normativas para las redes lan existen para acomodar requisitos diferentes en implementacion. Las normativas tratan de mantener interoperabilidad para un estandar pero mantienen estandares diferentes de medios fisicos, velocidades o tecnologia de transmision. Esta versatilidad permite tener dispositivos moviles(los cuales no pueden cablearse comodamente) y dispositivos fijos en una misma red utilizando dispositivos que utilizen dos o mas tecnologias para interoperar en estas normativas.
