@@ -544,7 +544,9 @@ Es lo mismo duplicar frecuencia o duplicar área de antena, el aumento será de 
 
 <img width="750" height="337" alt="image" src="https://github.com/user-attachments/assets/3390ad24-765f-41f3-8bd1-5079e915b413" />
 
+
 4.11
+
 a) 
 <img width="4160" height="1556" alt="WhatsApp Image 2026-09-13 at 10 45 36 PM" src="https://github.com/user-attachments/assets/49e895d1-a48e-4b43-8e44-7f5e50c446cb" />
 
