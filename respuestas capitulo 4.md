@@ -389,20 +389,38 @@ $$
 
 
 4.14
-Un transmisor de microondas tiene una salida de 0,1 W a 2 GHz. Suponga que este transmisor se utiliza en un sistema de comunicación de microondas en el que las antenas transmisora y receptora son parábolas, cada una con un diámetro igual a 1,2 m.
-a) ¿Cuál es la ganancia de cada antena en decibelios?
-b) Teniendo en cuenta la ganancia de la antena para la señal transmitida, ¿cuál es la potencia efectiva radiada?
-c) Si la antena receptora se sitúa a 24 km de la antena transmisora en el espacio libre, determine la potencia de la señal a la salida de la antena receptora en dBm
-
 a) Para resolver este ejercicio primero debemos calcular la longitud de onda de la señal de 2 GHz para esto usamos la relación λ = c/f. Quedando así, λ = 3*10^8/2*10^9 = 0.15 metros.
 También necesitamos saber el área de las antenas, para eso usamos A = pi * r^2 y sabiendo el diámetro podemos calcular el radio, r = diámetro/2 = 0,6 m de esta forma nos queda, A = pi * 0.6^2 = 1.131
 Ahora si podemos calcular la ganancia con la formula de una antena parabolica. 
 G = 7A/λ^2 = 7 * 1.131 / 0.15^2 = 351.86
 Ahora que sabemos que la ganancia es de 351.86 la debemos pasar a decibelios. Para eso:
 
-$$G_{dB} = 10 \log_{10}(351.86) \approx 25.46 \text{ dB}$$
+$$G_{dB} = 10 \log_{10}(351.86) \= 25.46 \text{ dB}$$
 
-b) Para saber la potencia efectiva 
+b) Para saber la potencia efectiva debemos tener en cuenta que el transmisor entrega una potencia de 0.1W que serian 100mW. Si esto lo pasamos a decibelios entonces nos quedaria $$P_{dB} = 10 \log_{10}(100mW) \ = 20\text{ dBm}$$
+
+Con esto podemos calcular la potencia efectiva radiada como la suma de la potencia entregada por el transmisor y la ganancia sacada en el punto anterior.
+
+$$\text{EIRP} = 20 \text{ dBm} + 25.46 \text{ dB} = 45.46 \text{ dBm}$$
+
+c) Ahora para conocer la potencia de la señal de salida de la antena receptora teniendo en cuenta que esta situada a 24 km de la antena transmisora debemos considerar la atenuacion, para eso vamos a usar la ecuacion vista en el libro de perdida del espacio libre donde:}
+
+$$L_{dB} = -20 \log_{10}(\lambda) + 20 \log_{10}(d) + 21.98$$ 
+
+donde la longitud de onda la tomamos del punto a, que es 0.15 metros y la distancia d son nuestros 24km = 24000 metros. Reemplazando nos queda:
+
+$$L_{dB} = -20 \log_{10}(0.15) + 20 \log_{10}(24000) + 21.98$$
+
+Y resolviendo termina dando
+$$L_{dB} = 126.06 $$
+
+Ahora usamos ese valor para calcular calcular la perdida de espacio libre teniendo en cuenta que ambas antenas (receptora y transmisora) tienen una ganancia igual entonces 
+$$L_{dB} = 126.06 - 25.46 - 25.46 = 75.14 \text{ dB}$$
+
+Y con esto podemo calcular la potencia de la señal a la salida como la potencia de la señal transmitica (en este caso vamos a usar los del punto b, 0.1W) menos la perdida en el espacio libre.
+
+$$P_r = 20 \text{ dBm} - 75.14 \text{ dB} = -55.14 \text{ dBm}$$
+
 
 4.15
 
