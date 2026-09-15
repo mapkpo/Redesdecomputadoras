@@ -287,6 +287,7 @@ $$
 
 La longitud teórica de la antena para transmitir a 30 Hz es
 de 5.000 kilómetros.
+Una antena de este tamaño no es practica, ya que el propio radio de la tierra es de 6.371km.
 
 4.7 
 
@@ -421,10 +422,11 @@ $$
 d_{km} = \sqrt{2r_{km}h_{km}} = \sqrt{2\times6.370\times\frac{h}{1000}} = 3.57\sqrt{h_m} 
 $$
 
+Obteniendo la formula de linea de vision
+
 
 4.16
 
-La linea de vision se puede expresar como (pag121):
 
 $$
 d = 3,57\sqrt{Kh}
