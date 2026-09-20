@@ -218,8 +218,9 @@ Prueba: http al server desde clase admin
 Y si nos paramos en el router y hacemos show access-lists obtenemos lo siguiente:
 <img width="548" height="239" alt="imagen" src="https://github.com/user-attachments/assets/d50700f8-59e4-464f-98fb-2412af4d5a1a" />
 
+Conclusiones: 
 
-
+A partir de la realización del punto 3 del laboratorio aprendimos herramientas para limitar el acceso a la redes de equipos, esto lo pudimos ver en la simulacion hecha en el packet tracer donde los tripulantes de la clase turista ( clase pobre en el diagrama de red) no poseen el acceso a conexiones externas, no asi como los de la clase business ( clase media ) los cuales si pueden acceder para tener una libre navegacion. 
 
 
 
