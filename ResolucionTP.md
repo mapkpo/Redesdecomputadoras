@@ -185,6 +185,8 @@ Prueba: ping al server desde clase pobre
 Prueba: http al server desde clase pobre
 <img width="698" height="623" alt="image" src="https://github.com/user-attachments/assets/7c1a7603-bb69-486e-8a02-37bf215fa8b2" />
 
+Prueba: ping al server desde la clase business (media)
+<img width="413" height="204" alt="imagen" src="https://github.com/user-attachments/assets/6d838f99-058c-4fcc-a68a-1c87e601a5d6" />
 
 
 
