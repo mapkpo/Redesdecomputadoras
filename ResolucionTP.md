@@ -168,3 +168,27 @@ FastEthernet0/21       unassigned      YES manual administratively down down
 ```
 
 Los puertos a los que se conectan las pcs fueron asignados a la vlan de laboratorio. Por lo tanto solo pueden acceder sin un gateway a los dispositivos en su misma vlan. La vlan de management es separada y por esto las pc no pueden acceder a las ips ahi.
+
+
+
+
+
+
+
+# 3)
+Diagrama de la red
+<img width="1066" height="932" alt="image" src="https://github.com/user-attachments/assets/164eaf79-55c7-4efa-a721-d63fb068a2ae" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+
