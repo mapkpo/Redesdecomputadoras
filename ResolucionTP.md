@@ -182,6 +182,10 @@ Diagrama de la red
 Prueba: ping al server desde clase pobre
 <img width="672" height="601" alt="image" src="https://github.com/user-attachments/assets/917eca8e-eff4-4428-809d-41ea1444e87d" />
 
+Prueba: http al server desde clase pobre
+<img width="698" height="623" alt="image" src="https://github.com/user-attachments/assets/7c1a7603-bb69-486e-8a02-37bf215fa8b2" />
+
+
 
 
 
