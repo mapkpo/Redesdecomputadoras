@@ -179,6 +179,10 @@ Los puertos a los que se conectan las pcs fueron asignados a la vlan de laborato
 Diagrama de la red
 <img width="1066" height="932" alt="image" src="https://github.com/user-attachments/assets/164eaf79-55c7-4efa-a721-d63fb068a2ae" />
 
+Prueba: ping al server desde clase pobre
+<img width="672" height="601" alt="image" src="https://github.com/user-attachments/assets/917eca8e-eff4-4428-809d-41ea1444e87d" />
+
+
 
 
 
