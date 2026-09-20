@@ -196,11 +196,24 @@ Prueba: ping al server desde la clase business (media)
 Prueba: http al server desde clase business (media)
 <img width="931" height="414" alt="imagen" src="https://github.com/user-attachments/assets/556642dc-6d62-42b3-93c7-79b5da7607af" />
 
+
 Prueba: ping a internet desde clase media
 <img width="437" height="207" alt="imagen" src="https://github.com/user-attachments/assets/3ddd14e5-503d-4c97-beaa-3b289abfbf20" />
 
 
+Prueba: ping a clase pobre desde clase admin
+<img width="486" height="349" alt="imagen" src="https://github.com/user-attachments/assets/bfb9b135-3e5a-48d5-8d95-854d1c61ebeb" />
 
+
+Prueba: ping a clase media desde clase admin
+<img width="439" height="206" alt="imagen" src="https://github.com/user-attachments/assets/8f325360-d6e0-4ce2-b5f4-3ce12dc59cf9" />
+
+Prueba: ping a internet desde clase admin
+<img width="436" height="194" alt="imagen" src="https://github.com/user-attachments/assets/210988ac-15c8-4321-91d1-24a78e893f16" />
+
+
+Prueba: http al server desde clase admin
+<img width="931" height="375" alt="imagen" src="https://github.com/user-attachments/assets/b51fb0a5-8e97-4710-b5fc-2abf3641afd6" />
 
 
 
