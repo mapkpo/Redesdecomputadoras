@@ -215,6 +215,9 @@ Prueba: ping a internet desde clase admin
 Prueba: http al server desde clase admin
 <img width="931" height="375" alt="imagen" src="https://github.com/user-attachments/assets/b51fb0a5-8e97-4710-b5fc-2abf3641afd6" />
 
+Y si nos paramos en el router y hacemos show access-lists obtenemos lo siguiente:
+<img width="548" height="239" alt="imagen" src="https://github.com/user-attachments/assets/d50700f8-59e4-464f-98fb-2412af4d5a1a" />
+
 
 
 
