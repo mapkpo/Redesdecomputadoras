@@ -196,6 +196,8 @@ Prueba: ping al server desde la clase business (media)
 Prueba: http al server desde clase business (media)
 <img width="931" height="414" alt="imagen" src="https://github.com/user-attachments/assets/556642dc-6d62-42b3-93c7-79b5da7607af" />
 
+Prueba: ping a internet desde clase media
+<img width="437" height="207" alt="imagen" src="https://github.com/user-attachments/assets/3ddd14e5-503d-4c97-beaa-3b289abfbf20" />
 
 
 
