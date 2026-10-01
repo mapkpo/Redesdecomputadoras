@@ -26,7 +26,7 @@ subcodigo
 
 5.Sequence Number (2 bytes), Numero secuencial para emparejar cada Echo con su Reply
 
-Despues de eso, sigue el Payload donde se emite informacion adicional.
+Después de eso, sigue el Payload donde se emite información adicional.
 
 ### Configuración de red del equipo
 - **Interfaz:** wlp0s20f3
@@ -44,4 +44,10 @@ Despues de eso, sigue el Payload donde se emite informacion adicional.
 | **Internet Protocol Version 4** |192.168.1.22 |8.8.8.8 |ICMP |
 | **Internet Control Message Protocol** |0x82db |0x82db|Type: 8 |
 | **Datos / payload** |Data (40 bytes)|Data(40 bytes) | -|
+
+
+A2)  <img width="1016" height="282" alt="A2" src="https://github.com/user-attachments/assets/4f8bbf5f-a879-4abe-8184-e598066400bd" />
+
+La MAC es del router,la misma que se uso para el ping.
+El alcance de la MAC es localmente, mientras que la IP tiene un alcance global
 
