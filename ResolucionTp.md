@@ -15,11 +15,33 @@ Se diferencian por el campo Type, en Echo Request el campo Type es 8, mientras q
 
 D)  El encabezado mínimo mide 8 bytes, compuesto de:
 
-    1.Type (1 byte), que es el tipo de mensaje
-    2.Code (1 byte), que es un subcodigo
-    3.Checksum (2 bytes), para verificar que el mensaje no se corrompió
-    4.Identifier (2 bytes), Identificador para asociar la solicitud
-    5.Sequence Number (2 bytes), Numero secuencial para emparejar cada Echo con su Reply
+1.Type (1 byte), que es el tipo de mensaje
+
+2.Code (1 byte), que es un 
+subcodigo
+
+3.Checksum (2 bytes), para verificar que el mensaje no se corrompió
+
+4.Identifier (2 bytes), Identificador para asociar la solicitud
+
+5.Sequence Number (2 bytes), Numero secuencial para emparejar cada Echo con su Reply
 
 Despues de eso, sigue el Payload donde se emite informacion adicional.
+
+### Configuración de red del equipo
+- **Interfaz:** wlp0s20f3
+- **Dirección IPv4:** 192.168.1.22
+- **Máscara:** 255.255.255.0 (/24)
+- **Gateway por defecto:** 192.168.1.1
+- **Dirección MAC de la interfaz:** a0:85:27:5b:f4:c8
+
+---
+
+
+| Capa (como la nombra Wireshark) | Dirección/identificador origen | Dirección/identificador destino | ¿Qué campo indica qué protocolo viene "adentro"? |
+| :--- | :--- | :--- | :--- |
+| **Ethernet II** |a0:85:27:5b:f4:c8|98:42:65:72:f7:77 |IPv4 |
+| **Internet Protocol Version 4** |192.168.1.22 |8.8.8.8 |ICMP |
+| **Internet Control Message Protocol** |0x82db |0x82db|Type: 8 |
+| **Datos / payload** |Data (40 bytes)|Data(40 bytes) | -|
 
