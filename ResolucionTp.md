@@ -51,3 +51,6 @@ A2)  <img width="1016" height="282" alt="A2" src="https://github.com/user-attach
 La MAC es del router,la misma que se uso para el ping.
 El alcance de la MAC es localmente, mientras que la IP tiene un alcance global
 
+B2)  <img width="1105" height="312" alt="B2" src="https://github.com/user-attachments/assets/2e65f51b-6a2b-4f2f-9136-ceac1271b437" />
+
+
