@@ -28,7 +28,7 @@ subcodigo
 
 Después de eso, sigue el Payload donde se emite información adicional.
 
-### Configuración de red del equipo
+Configuración de red del equipo
 - **Interfaz:** wlp0s20f3
 - **Dirección IPv4:** 192.168.1.22
 - **Máscara:** 255.255.255.0 (/24)
@@ -86,4 +86,8 @@ D2)  <img width="1465" height="159" alt="D2" src="https://github.com/user-attach
 
 El TTL (Time to Live) mide cantidad de saltos en routers, Linux usa un TTL inicial de 64.
 La salida desde Google es de 128 y el TTL que llego fue de 117, asi que paso a través de 11 routers 
+
+E2)  <img width="1403" height="992" alt="E12" src="https://github.com/user-attachments/assets/072ab54b-635d-4463-87ef-e13a298d81b1" />
+<img width="827" height="896" alt="E2" src="https://github.com/user-attachments/assets/7df6f5ff-0f33-4a36-a77d-a06f40ed09ad" />
+
 
