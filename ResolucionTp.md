@@ -54,3 +54,26 @@ El alcance de la MAC es localmente, mientras que la IP tiene un alcance global
 B2)  <img width="1105" height="312" alt="B2" src="https://github.com/user-attachments/assets/2e65f51b-6a2b-4f2f-9136-ceac1271b437" />
 
 
+Campos que cambian:
+MAC origen y MAC destino (se invierten),
+IP origen e IP destino (se invierten),
+TTL (Time to Live),
+IP Identification,
+Checksum de IP,
+ICMP Type (pasa de 8 a 0),
+Checksum de ICMP
+
+
+Campos que NO cambian:
+Ethernet Type (0x0800),
+Versión de IP (IPv4),
+IP Protocol (1 = ICMP),
+Tamaño total del paquete,
+ICMP Identifier,
+ICMP Sequence Number,
+ICMP Data (Payload)
+
+Para el ping, las direcciones se tienen que invertir, el Type cambia para que sea una respuesta.
+
+El identifier y Sequence Number se mantienen para emparejar cada respuesta con su solicitud y medir su tiempo de respuesta.
+
