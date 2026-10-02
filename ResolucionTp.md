@@ -77,3 +77,13 @@ Para el ping, las direcciones se tienen que invertir, el Type cambia para que se
 
 El identifier y Sequence Number se mantienen para emparejar cada respuesta con su solicitud y medir su tiempo de respuesta.
 
+
+C2)  <img width="1043" height="501" alt="C2" src="https://github.com/user-attachments/assets/6dfc3f0b-7e4c-4d92-9d47-a15a914b7f57" />
+
+Linux payload, PONER CAP PAYLOAD EN WINDOWS
+
+D2)  <img width="1465" height="159" alt="D2" src="https://github.com/user-attachments/assets/7f007c5d-7bfd-413e-8439-d4cfc103ef5b" />
+
+El TTL (Time to Live) mide cantidad de saltos en routers, Linux usa un TTL inicial de 64.
+La salida desde Google es de 128 y el TTL que llego fue de 117, asi que paso a través de 11 routers 
+
