@@ -105,3 +105,21 @@ c) Es una tabla en cada equipo que guarda las asociaciones IP a MAC aprendidas r
 
 d) Primero tengo que revisar mi cache ARP para ver si ya conozco la MAC de esa IP. Si esta, la uso directamente, si no, mando un ARP Request por broadcast a toda la red preguntando por quien tiene esa IP. La maquina que tiene esa IP me responde diciendome su MAC. Guardo ese dato en la cache y ahora armo la trama Ethernet con esa MAC como destino.
 
+
+
+
+
+
+
+3) TCP y UDP "a mano" con ncat
+
+a) Establecer una conexión TCP significa que los dos extremos acuerdan comunicarse y reservan estado el uno para el otro antes de intercambiar datos.
+Existe unicamente en los extremos, es decir, en la memoria del sistema operativo de las dos máquinas. No existe en los cables que transportan bits, ni en los routers (que reenvían paquetes IP de forma independiente, sin saber que pertenecen a una conexión TCP; solo miran la IP destino). Por eso se dice que la conexión es una abstracción de extremo a extremo.
+
+b) Un puerto es un número de 16 bits que usan TCP y UDP para distinguir entre las distintas aplicaciones que se ejecutan en un mismo equipo. La IP lleva el paquete hasta la máquina correcta, y el puerto indica a qué proceso dentro de esa máquina debe entregarse.
+
+El par (IP, puerto) se llama socket e identifica un extremo de comunicación: una aplicación concreta en una máquina concreta. A su vez, una conexión TCP queda identificada de forma única por la 4-upla (IP origen, puerto origen, IP destino, puerto destino).
+
+c) Significa que el proceso le pidió al sistema operativo, mediante las llamadas bind() y listen(), que reserve ese puerto y quede a la espera de conexiones entrantes. Cuando llega un SYN dirigido a ese puerto, el sistema operativo sabe a qué proceso corresponde, completa el handshake y le entrega la nueva conexión mediante accept().
+
+
