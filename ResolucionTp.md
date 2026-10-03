@@ -91,3 +91,17 @@ E2)  <img width="1403" height="992" alt="E12" src="https://github.com/user-attac
 <img width="827" height="896" alt="E2" src="https://github.com/user-attachments/assets/7df6f5ff-0f33-4a36-a77d-a06f40ed09ad" />
 
 
+2) ARP: de una IP a una dirección MAC
+
+a) Resuelve la correspondencia entre direcciones IP y direcciones MAC dentro de una red local. Sin ARP un equipo que conoce la IP de destino no podría construir la trama.
+
+Suele ubicarse en la capa 2 o en una capa intermedia entre la 2 y la 3. Es discutible porque usa direcciones de capa 3 para obtener direcciones de capa 2, y porque viaja directamente sobre Ethernet sin encapsularse en IP, pero existe solo para dar soporte a IP.
+
+b) ARP Request es la pregunta por quien tiene la IP "X" y le deben responder a su direccion MAC. Esta se envía por broadcast, así que lo reciben todos los equipos de la red local.
+
+ARP Reply en cambio, es la respuesta. Se envía por unicast directamente al equipo que hizo la consulta, y solo lo responde el dueño de esa IP.
+
+c) Es una tabla en cada equipo que guarda las asociaciones IP a MAC aprendidas recientemente. Esta existe para evitar hacer un broadcast antes de cada paquete, sin ella, cada envio generaría una consulta, con su tráfico y retardo correspondiente. Las entradas caducan tras un tiempo porque la red cambia, un equipo puede cambiar de IP, de tarjeta o apagarse, y una entrada vieja enviaria tramas a un destino equivocado.
+
+d) Primero tengo que revisar mi cache ARP para ver si ya conozco la MAC de esa IP. Si esta, la uso directamente, si no, mando un ARP Request por broadcast a toda la red preguntando por quien tiene esa IP. La maquina que tiene esa IP me responde diciendome su MAC. Guardo ese dato en la cache y ahora armo la trama Ethernet con esa MAC como destino.
+
