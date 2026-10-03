@@ -91,6 +91,7 @@ E2)  <img width="1403" height="992" alt="E12" src="https://github.com/user-attac
 <img width="827" height="896" alt="E2" src="https://github.com/user-attachments/assets/7df6f5ff-0f33-4a36-a77d-a06f40ed09ad" />
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 2) ARP: de una IP a una dirección MAC
 
 a) Resuelve la correspondencia entre direcciones IP y direcciones MAC dentro de una red local. Sin ARP un equipo que conoce la IP de destino no podría construir la trama.
@@ -109,7 +110,7 @@ d) Primero tengo que revisar mi cache ARP para ver si ya conozco la MAC de esa I
 
 
 
-
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 3) TCP y UDP "a mano" con ncat
 
