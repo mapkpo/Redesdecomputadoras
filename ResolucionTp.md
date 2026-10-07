@@ -139,7 +139,7 @@ Experimento sin servidor.
 <img width="1207" height="380" alt="3" src="https://github.com/user-attachments/assets/d5d1dce2-2972-4730-a95b-154a1d451cb0" />
 <img width="1390" height="316" alt="3w" src="https://github.com/user-attachments/assets/717c61de-eaf2-4e2d-b8db-4d5c02a9855e" />
 
-
+a) En tcp antes de enviar el primer mensaje se estableció la conexión mediante el handshake, en udp no hay establecimiento de conexión.  
 
 
 
