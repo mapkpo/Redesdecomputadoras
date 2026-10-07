@@ -140,8 +140,10 @@ Experimento sin servidor.
 <img width="1390" height="316" alt="3w" src="https://github.com/user-attachments/assets/717c61de-eaf2-4e2d-b8db-4d5c02a9855e" />
 
 a) En tcp antes de enviar el primer mensaje se estableció la conexión mediante el handshake, en udp no hay establecimiento de conexión.  
-
-
+b) Cada mensaje generó un datagrama, no hay ACK porque udp no lo usa.
+c) Tcp usó 20 bytes contiene puerto origen, puerto destino, número de secuencia, número de reconocimiento, longitud del encabezado, bits reservados, flags, ventana, checksum, puntero urgente y opciones si existen, udp 8 bytes y contiene puerto origen, puerto destino, longitud y checksum.
+<img width="681" height="377" alt="image" src="https://github.com/user-attachments/assets/8fa2263c-bcc9-4f1c-bc2d-fc0927cb70b7" />
+<img width="442" height="155" alt="image" src="https://github.com/user-attachments/assets/311953c9-ff72-4a30-a8c4-188423001c9f" />
 
 
 
