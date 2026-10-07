@@ -146,5 +146,5 @@ c) Tcp usó 20 bytes contiene puerto origen, puerto destino, número de secuenci
 <img width="442" height="155" alt="image" src="https://github.com/user-attachments/assets/311953c9-ff72-4a30-a8c4-188423001c9f" />
 e) 
 d) En udp no pasa nada, en tcp podemos ver el RST.
-f) 
+f) En tcp el SYN falla y el sistema operativo responde con un RST. En un udp obtenemos un Destination Unreachable — Port Unreachable.
 
