@@ -124,3 +124,24 @@ El par (IP, puerto) se llama socket e identifica un extremo de comunicación: un
 c) Significa que el proceso le pidió al sistema operativo, mediante las llamadas bind() y listen(), que reserve ese puerto y quede a la espera de conexiones entrantes. Cuando llega un SYN dirigido a ese puerto, el sistema operativo sabe a qué proceso corresponde, completa el handshake y le entrega la nueva conexión mediante accept().
 
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3.1) Experimento TCP.
+<img width="1214" height="179" alt="b1" src="https://github.com/user-attachments/assets/a05802da-a797-4476-a445-39c862bfd00f" />
+<img width="1105" height="177" alt="a1" src="https://github.com/user-attachments/assets/63d6aa08-d011-4516-bdc4-59ef47ea54d0" />
+<img width="1277" height="276" alt="1" src="https://github.com/user-attachments/assets/33b844ef-577f-4411-8b41-90b0df4404fe" />
+
+Experimento UDP.
+<img width="2361" height="283" alt="2" src="https://github.com/user-attachments/assets/548d053d-d53b-4d7d-a97d-4bc08d0799a6" />
+<img width="1103" height="238" alt="2w" src="https://github.com/user-attachments/assets/eb59ee87-5b39-4d77-bf12-0b0880044184" />
+
+Experimento sin servidor.
+<img width="1207" height="380" alt="3" src="https://github.com/user-attachments/assets/d5d1dce2-2972-4730-a95b-154a1d451cb0" />
+<img width="1390" height="316" alt="3w" src="https://github.com/user-attachments/assets/717c61de-eaf2-4e2d-b8db-4d5c02a9855e" />
+
+
+
+
+
+
+
