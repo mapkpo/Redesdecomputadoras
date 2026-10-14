@@ -150,3 +150,12 @@ e) 35 en udp y 47 en tcp.
 d) En udp no pasa nada, en tcp podemos ver el RST.
 f) En tcp el SYN falla y el sistema operativo responde con un RST. En un udp obtenemos un Destination Unreachable — Port Unreachable.
 
+
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------
+4.D)
+<img width="1239" height="263" alt="image" src="https://github.com/user-attachments/assets/01a6de49-0275-420e-a0b4-1a243d85c60f" />
+
+<img width="2192" height="1035" alt="Captura" src="https://github.com/user-attachments/assets/174aeaff-24cf-4a48-aede-5904b60e2b77" />
+
+
