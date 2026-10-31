@@ -31,7 +31,7 @@ Aun asi, los 8 cables presentan continuidad entre las fichas lo que significa qu
 
 Configuramos una notebook con fedora con la siguiente configuracion ipv4:
 
-# IMAGEN CONFIGURACION
+<img width="1220" height="847" alt="image" src="https://github.com/user-attachments/assets/c2d557f1-0376-47b0-812f-99977ddde451" />
 
 utilizamos la mascara de subred /0 o 0.0.0.0 para que todo paquete se direcione a la ip correspondiente en vez de intentar pasarla a la gateway(ya que no tenemos gateway) esto solo es necesario para garantizar compatibilidad con la ip que elija otro grupo.
 
@@ -43,7 +43,8 @@ Para la actividad solo tiene utilidad asignar una ip para nuestro dispositivo y 
 
 Despues de resolver problemas con el firewall de windows por la configuracion en defecto como "red publica" que bloquea pings:
 
-# IMAGEN PING
+<img width="768" height="305" alt="image" src="https://github.com/user-attachments/assets/3912a572-0bdd-42e6-92e6-7bfc0360749a" />
+
 
 ## test ncat
 utilizando ncat entre pcs y analizando por wireshark. vemos que ambos utilizan udp para los mensajes y no existe ningun ack entre ellos. si el paquete se perdiera el destinatario nunca vera el mensaje:
@@ -54,19 +55,25 @@ Internet Protocol Version 4, Src: 192.168.1.25, Dst: 192.168.1.15
 User Datagram Protocol, Src Port: 56552, Dst Port: 5000
 Data (11 bytes)
 ´´´
-# IMAGEN WIRESHARK
+<img width="1207" height="520" alt="image" src="https://github.com/user-attachments/assets/1edccd77-8537-4796-86c7-18ba8bc87eb7" />
+<img width="960" height="76" alt="image" src="https://github.com/user-attachments/assets/79286cca-7fbd-4e6f-b2e1-2f458c2e538f" />
+
 
 # 5
 
 a) no vemos ningun paquete al iniciar el comando ncat en ambos pcs, y solo vemos un paquete por mensaje
+
 b) no vemos ningun mensaje del destinatario al origen en ninguna direccion, parece no tener ningun ack(aparte de usar udp que no lo provee)
+
 c) si el receptor udp no se ejecuta, un paquete icmp retorna de la ip destino indicando que el puerto esta cerrado indicando a ncat que se denego la coneccion
 si el servidor esta abierto pero ningun destinatario se conecta no vemos ningun paquete de salida
+
 d) no, de hecho si en el servidor ncat se ingresan mensajes antes de que el cliente envie el primero estos seran enviados despues figurando fuera de orden. udp no tiene un mecanismo para garantizar el orden y la aplicacion tampoco lo provee
+
 e) aplicaciones como stream de video en vivo, videojuegos, Network Time Protocol. La razon por la que se utilizan es que se prefiere menor latencia para estas aplicaciones, aceptando la posibilidad de paquetes fuera de orden o reenvios. Las aplicaciones pueden utilizar sus propios mecanismos de ack y ordenado mas utiles para su funcionalidad especifica al utilizar udp
 
 # Pequeño servidor
 
-# imagen wireshark
+<img width="1851" height="428" alt="image" src="https://github.com/user-attachments/assets/48bf9b59-05b4-47c6-8cc3-56c9202a505d" />
 
 el trafico es de tipo tcp, esto se debe a que si se pierde un tramo de la transferencia el archivo puede volverse inoperable. Se necesita garantizar el orden y presencia de todos los segmentos de los archivos a enviar
