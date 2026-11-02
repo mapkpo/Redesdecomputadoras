@@ -23,8 +23,11 @@ Paquete 4:
 ```
 
 Vemos contenido ascii que sigue formato json con size(alto y ancho de la matriz), payload(datos a transportar) y check(bits de paridad de filas y luego columnas) siguiendo paridad columna-fila
+
 los primeros dos paquetes parecen usar 7 bits por cada casilla de la matriz, representando caracteres ascii
+
 el tercer paquete contiene links en ambos PL y CHECK por lo que no parece seguir el formato de paridad
+
 el cuarto paquete contiene un link valido y un CHECK en binario, que no tiene la cantidad correcta de bits
 
 
