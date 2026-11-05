@@ -78,7 +78,7 @@ analizando el pl del paquete 2:
 1       1110100 1110101 1110010 1101101 0111101 1110011 !Error
 0       1101000 1100001 1110010 1100101 0100000 0100000
 0       0100000 0100000 0100000 0100000 0100000 0100000
-        X (col 3)  X (col 12)  X (col 18)  X (col 25)
+          X (col 3) X (12) X (18)  X (col 25)
 ```
 la unica posibilidad que es un url valido: https://youtube.com/shorts/WCi5hu1EqqI?feature=share
 
